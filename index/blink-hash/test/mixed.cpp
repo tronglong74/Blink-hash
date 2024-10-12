@@ -59,6 +59,16 @@ int main(int argc, char* argv[]){
 	    }
 	}
     };
+    
+    auto scan = [&tree, &keys, &insert_ratio, half](int from, int to, int tid){
+	for(int i=from; i<to; i++){
+	    auto t = tree->getThreadInfo();
+		int range = rand() % 100;
+		uint64_t buf[range];
+		auto ret = tree->range_lookup(keys[i], range, buf, t); 
+	}
+    };
+
 
     std::cout << "warmup starts" << std::endl;
     for(int i=0; i<num_threads; i++){

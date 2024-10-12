@@ -1,6 +1,6 @@
 #ifndef UTIL_HASH_H_
 #define UTIL_HASH_H_
-
+#include <cstdint>
 #include <functional>
 #include <stddef.h>
 

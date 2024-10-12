@@ -1,0 +1,39 @@
+-----------------scan--------------
+Insertion: 11.054 mops/sec
+Scan 100%
+Scan: 1.4697 mops/sec
+Insertion: 8.23605 mops/sec
+Scan 100%
+Scan: 2.6107 mops/sec
+Insertion: 5.79022 mops/sec
+Scan 100%
+Scan: 4.53566 mops/sec
+Insertion: 4.25256 mops/sec
+Scan 100%
+Scan: 8.09435 mops/sec
+Insertion: 3.07327 mops/sec
+Scan 100%
+Scan: 12.6038 mops/sec
+-----------------read--------------
+Insertion: 11.0389 mops/sec
+Read 100%
+Read: 1.91072 mops/sec
+Insertion: 8.24556 mops/sec
+Read 100%
+Read: 3.76764 mops/sec
+Insertion: 5.71353 mops/sec
+Read 100%
+Read: 7.21881 mops/sec
+Insertion: 4.23798 mops/sec
+Read 100%
+Read: 13.6505 mops/sec
+Insertion: 3.0704 mops/sec
+Read 100%
+Read: 24.9399 mops/sec
+-----------------mix--------------
+Insertion: 11.0579 mops/sec
+Insert 50%, Short scan 30%, Long scan 10%, Read 10%
+Mix: 2.85982 mops/sec
+Insertion: 7.75133 mops/sec
+Insert 50%, Short scan 30%, Long scan 10%, Read 10%
+Mix: 4.9956 mops/sec

@@ -1,0 +1,28 @@
+Data Num 1kw
+Insertion: 12.7081 mops/sec
+Insert 50%, Short scan 30%, Long scan 10%, Read 10%
+Mix: 3.96189 mops/sec
+Data Num 2kw
+Insertion: 12.4241 mops/sec
+Insert 50%, Short scan 30%, Long scan 10%, Read 10%
+Mix: 3.57511 mops/sec
+Data Num 4kw
+Insertion: 12.1102 mops/sec
+Insert 50%, Short scan 30%, Long scan 10%, Read 10%
+Mix: 3.24607 mops/sec
+Data Num 8kw
+Insertion: 11.7351 mops/sec
+Insert 50%, Short scan 30%, Long scan 10%, Read 10%
+Mix: 2.77135 mops/sec
+Data Num 16kw
+Insertion: 11.5232 mops/sec
+Insert 50%, Short scan 30%, Long scan 10%, Read 10%
+Mix: 2.3531 mops/sec
+Data Num 32kw
+Insertion: 11.3578 mops/sec
+Insert 50%, Short scan 30%, Long scan 10%, Read 10%
+Mix: 2.10567 mops/sec
+Data Num 64kw
+Insertion: 11.095 mops/sec
+Insert 50%, Short scan 30%, Long scan 10%, Read 10%
+Mix: 1.93212 mops/sec

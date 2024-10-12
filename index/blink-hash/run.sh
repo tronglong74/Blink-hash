@@ -8,7 +8,8 @@ scan_path=out/scan
 mixed_path=out/mixed
 mkdir $load_path $read_path $scan_path $mixed_path
 
-threads="1 4 8 16 32 64"
+#threads="1 4 8 16 32 64"
+threads="1 4 8"
 iteration="1 2 3"
 
 #rw_target="baseline_ fingerprint_ sampling_ linked_"

@@ -21,18 +21,6 @@
 /* Define to 1 if you have the `clock_gettime' function. */
 #undef HAVE_CLOCK_GETTIME
 
-/* Define if the C++ compiler understands 'auto'. */
-#undef HAVE_CXX_AUTO
-
-/* Define if the C++ compiler understands constexpr. */
-#undef HAVE_CXX_CONSTEXPR
-
-/* Define if the C++ compiler understands rvalue references. */
-#undef HAVE_CXX_RVALUE_REFERENCES
-
-/* Define if the C++ compiler understands static_assert. */
-#undef HAVE_CXX_STATIC_ASSERT
-
 /* Define if the C++ compiler understands template alias. */
 #undef HAVE_CXX_TEMPLATE_ALIAS
 
@@ -116,6 +104,9 @@
 /* Define if you have the std::is_trivially_copyable template. */
 #undef HAVE_STD_IS_TRIVIALLY_COPYABLE
 
+/* Define if you have the std::is_trivially_destructible template. */
+#undef HAVE_STD_IS_TRIVIALLY_DESTRUCTIBLE
+
 /* Define to 1 if you have the <strings.h> header file. */
 #undef HAVE_STRINGS_H
 
@@ -169,6 +160,9 @@
 
 /* Define if you have the __has_trivial_copy compiler intrinsic. */
 #undef HAVE___HAS_TRIVIAL_COPY
+
+/* Define if you have the __has_trivial_destructor compiler intrinsic. */
+#undef HAVE___HAS_TRIVIAL_DESTRUCTOR
 
 /* Define if you have the __sync_add_and_fetch builtin. */
 #undef HAVE___SYNC_ADD_AND_FETCH

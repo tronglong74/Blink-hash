@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhot-rowex-str.a "CMakeFiles/hot-rowex-str.dir/wrapper.cpp.o"
+/usr/bin/ranlib libhot-rowex-str.a

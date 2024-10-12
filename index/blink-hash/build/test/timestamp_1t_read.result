@@ -1,0 +1,28 @@
+Data Num 1kw
+Insertion: 12.4921 mops/sec
+Read 100%
+Read: 5.27209 mops/sec
+Data Num 2kw
+Insertion: 12.3596 mops/sec
+Read 100%
+Read: 4.83929 mops/sec
+Data Num 4kw
+Insertion: 11.9506 mops/sec
+Read 100%
+Read: 4.23819 mops/sec
+Data Num 8kw
+Insertion: 11.6798 mops/sec
+Read 100%
+Read: 3.28532 mops/sec
+Data Num 16kw
+Insertion: 11.5222 mops/sec
+Read 100%
+Read: 2.58903 mops/sec
+Data Num 32kw
+Insertion: 11.3375 mops/sec
+Read 100%
+Read: 2.27271 mops/sec
+Data Num 64kw
+Insertion: 11.0923 mops/sec
+Read 100%
+Read: 1.90563 mops/sec

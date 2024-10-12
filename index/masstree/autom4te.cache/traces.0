@@ -61,6 +61,7 @@ m4trace:configure.ac:12: -1- m4_pattern_allow([^CC$])
 m4trace:configure.ac:12: -1- m4_pattern_allow([^CC$])
 m4trace:configure.ac:12: -1- m4_pattern_allow([^CC$])
 m4trace:configure.ac:12: -1- m4_pattern_allow([^ac_ct_CC$])
+m4trace:configure.ac:12: -1- m4_pattern_allow([^CC$])
 m4trace:configure.ac:12: -1- m4_pattern_allow([^EXEEXT$])
 m4trace:configure.ac:12: -1- m4_pattern_allow([^OBJEXT$])
 m4trace:configure.ac:13: -1- m4_pattern_allow([^CXX$])
@@ -71,18 +72,42 @@ m4trace:configure.ac:13: -1- m4_pattern_allow([^CPPFLAGS$])
 m4trace:configure.ac:13: -1- m4_pattern_allow([^CXX$])
 m4trace:configure.ac:13: -1- m4_pattern_allow([^ac_ct_CXX$])
 m4trace:configure.ac:14: -1- _m4_warn([obsolete], [The macro `AC_LANG_CPLUSPLUS' is obsolete.
-You should run autoupdate.], [../../lib/autoconf/c.m4:252: AC_LANG_CPLUSPLUS is expanded from...
+You should run autoupdate.], [./lib/autoconf/c.m4:262: AC_LANG_CPLUSPLUS is expanded from...
 configure.ac:14: the top level])
 m4trace:configure.ac:15: -1- m4_pattern_allow([^RANLIB$])
 m4trace:configure.ac:17: -1- m4_pattern_allow([^WORDS_BIGENDIAN_SET$])
-m4trace:configure.ac:18: -1- m4_pattern_allow([^CXXCPP$])
-m4trace:configure.ac:18: -1- m4_pattern_allow([^CPPFLAGS$])
-m4trace:configure.ac:18: -1- m4_pattern_allow([^CXXCPP$])
-m4trace:configure.ac:18: -1- m4_pattern_allow([^GREP$])
-m4trace:configure.ac:18: -1- m4_pattern_allow([^EGREP$])
+m4trace:configure.ac:18: -1- AC_DEFUN([_AC_Header_stdio_h], [m4_divert_text([INIT_PREPARE],
+  [AS_VAR_APPEND([ac_header_]]_AC_LANG_ABBREV[[_list],
+  [" stdio.h ]AS_TR_SH([stdio.h]) AS_TR_CPP([HAVE_stdio.h])["])])_AC_HEADERS_EXPANSION(_AC_LANG_ABBREV)])
+m4trace:configure.ac:18: -1- AC_DEFUN([_AC_Header_stdlib_h], [m4_divert_text([INIT_PREPARE],
+  [AS_VAR_APPEND([ac_header_]]_AC_LANG_ABBREV[[_list],
+  [" stdlib.h ]AS_TR_SH([stdlib.h]) AS_TR_CPP([HAVE_stdlib.h])["])])_AC_HEADERS_EXPANSION(_AC_LANG_ABBREV)])
+m4trace:configure.ac:18: -1- AC_DEFUN([_AC_Header_string_h], [m4_divert_text([INIT_PREPARE],
+  [AS_VAR_APPEND([ac_header_]]_AC_LANG_ABBREV[[_list],
+  [" string.h ]AS_TR_SH([string.h]) AS_TR_CPP([HAVE_string.h])["])])_AC_HEADERS_EXPANSION(_AC_LANG_ABBREV)])
+m4trace:configure.ac:18: -1- AC_DEFUN([_AC_Header_inttypes_h], [m4_divert_text([INIT_PREPARE],
+  [AS_VAR_APPEND([ac_header_]]_AC_LANG_ABBREV[[_list],
+  [" inttypes.h ]AS_TR_SH([inttypes.h]) AS_TR_CPP([HAVE_inttypes.h])["])])_AC_HEADERS_EXPANSION(_AC_LANG_ABBREV)])
+m4trace:configure.ac:18: -1- AC_DEFUN([_AC_Header_stdint_h], [m4_divert_text([INIT_PREPARE],
+  [AS_VAR_APPEND([ac_header_]]_AC_LANG_ABBREV[[_list],
+  [" stdint.h ]AS_TR_SH([stdint.h]) AS_TR_CPP([HAVE_stdint.h])["])])_AC_HEADERS_EXPANSION(_AC_LANG_ABBREV)])
+m4trace:configure.ac:18: -1- AC_DEFUN([_AC_Header_strings_h], [m4_divert_text([INIT_PREPARE],
+  [AS_VAR_APPEND([ac_header_]]_AC_LANG_ABBREV[[_list],
+  [" strings.h ]AS_TR_SH([strings.h]) AS_TR_CPP([HAVE_strings.h])["])])_AC_HEADERS_EXPANSION(_AC_LANG_ABBREV)])
+m4trace:configure.ac:18: -1- AC_DEFUN([_AC_Header_sys_stat_h], [m4_divert_text([INIT_PREPARE],
+  [AS_VAR_APPEND([ac_header_]]_AC_LANG_ABBREV[[_list],
+  [" sys/stat.h ]AS_TR_SH([sys/stat.h]) AS_TR_CPP([HAVE_sys/stat.h])["])])_AC_HEADERS_EXPANSION(_AC_LANG_ABBREV)])
+m4trace:configure.ac:18: -1- AC_DEFUN([_AC_Header_sys_types_h], [m4_divert_text([INIT_PREPARE],
+  [AS_VAR_APPEND([ac_header_]]_AC_LANG_ABBREV[[_list],
+  [" sys/types.h ]AS_TR_SH([sys/types.h]) AS_TR_CPP([HAVE_sys/types.h])["])])_AC_HEADERS_EXPANSION(_AC_LANG_ABBREV)])
+m4trace:configure.ac:18: -1- AC_DEFUN([_AC_Header_unistd_h], [m4_divert_text([INIT_PREPARE],
+  [AS_VAR_APPEND([ac_header_]]_AC_LANG_ABBREV[[_list],
+  [" unistd.h ]AS_TR_SH([unistd.h]) AS_TR_CPP([HAVE_unistd.h])["])])_AC_HEADERS_EXPANSION(_AC_LANG_ABBREV)])
 m4trace:configure.ac:18: -1- m4_pattern_allow([^STDC_HEADERS$])
 m4trace:configure.ac:18: -1- m4_pattern_allow([^WORDS_BIGENDIAN$])
 m4trace:configure.ac:18: -1- m4_pattern_allow([^AC_APPLE_UNIVERSAL_BUILD$])
+m4trace:configure.ac:20: -1- m4_pattern_allow([^HAVE_SYS_EPOLL_H$])
+m4trace:configure.ac:20: -1- m4_pattern_allow([^HAVE_NUMA_H$])
 m4trace:configure.ac:22: -1- m4_pattern_allow([^HAVE_LIBNUMA$])
 m4trace:configure.ac:27: -1- AC_DEFUN([KVDB_CHECK_BUILTIN], [
     AC_CACHE_CHECK([for $1 builtin], [ac_cv_have_$1],
@@ -229,7 +254,11 @@ m4trace:configure.ac:293: -1- m4_pattern_allow([^SIZEOF_INT$])
 m4trace:configure.ac:294: -1- m4_pattern_allow([^SIZEOF_LONG$])
 m4trace:configure.ac:295: -1- m4_pattern_allow([^SIZEOF_LONG_LONG$])
 m4trace:configure.ac:296: -1- m4_pattern_allow([^SIZEOF_VOID_P$])
+m4trace:configure.ac:298: -1- AC_DEFUN([_AC_UNDECLARED_BUILTIN_cxx], [_AC_UNDECLARED_BUILTIN])
 m4trace:configure.ac:298: -1- m4_pattern_allow([^HAVE_DECL_GETLINE$])
+m4trace:configure.ac:300: -1- m4_pattern_allow([^HAVE_TIME_H$])
+m4trace:configure.ac:300: -1- m4_pattern_allow([^HAVE_EXECINFO_H$])
+m4trace:configure.ac:301: -1- AC_DEFUN([_AC_UNDECLARED_BUILTIN_cxx], [_AC_UNDECLARED_BUILTIN])
 m4trace:configure.ac:301: -1- m4_pattern_allow([^HAVE_DECL_CLOCK_GETTIME$])
 m4trace:configure.ac:305: -1- m4_pattern_allow([^HAVE_CLOCK_GETTIME$])
 m4trace:configure.ac:314: -1- m4_pattern_allow([^MASSTREE_ROW_TYPE_ARRAY$])
@@ -237,6 +266,9 @@ m4trace:configure.ac:316: -1- m4_pattern_allow([^MASSTREE_ROW_TYPE_ARRAY_VER$])
 m4trace:configure.ac:318: -1- m4_pattern_allow([^MASSTREE_ROW_TYPE_BAG$])
 m4trace:configure.ac:320: -1- m4_pattern_allow([^MASSTREE_ROW_TYPE_STR$])
 m4trace:configure.ac:329: -1- m4_pattern_allow([^MASSTREE_MAXKEYLEN$])
+m4trace:configure.ac:332: -1- m4_pattern_allow([^CXXCPP$])
+m4trace:configure.ac:332: -1- m4_pattern_allow([^CPPFLAGS$])
+m4trace:configure.ac:332: -1- m4_pattern_allow([^CXXCPP$])
 m4trace:configure.ac:339: -1- m4_pattern_allow([^HAVE_MADV_HUGEPAGE$])
 m4trace:configure.ac:350: -1- m4_pattern_allow([^HAVE_MAP_HUGETLB$])
 m4trace:configure.ac:363: -1- m4_pattern_allow([^HAVE_SUPERPAGE$])

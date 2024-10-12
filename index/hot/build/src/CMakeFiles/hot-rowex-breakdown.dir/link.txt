@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhot-rowex-breakdown.a "CMakeFiles/hot-rowex-breakdown.dir/wrapper.cpp.o"
+/usr/bin/ranlib libhot-rowex-breakdown.a

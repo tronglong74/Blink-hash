@@ -1,9 +1,9 @@
 apt-get update
 
 ## make extra fs space - specific to Cloudlab
-mkdir /hk
-/usr/local/etc/emulab/mkextrafs.pl /hk
-chown hcha /hk
+#mkdir /hk
+#/usr/local/etc/emulab/mkextrafs.pl /hk
+#chown hcha /hk
 
 ## GCC - compiler
 apt install -y gcc g++ gdb
@@ -15,12 +15,12 @@ apt install -y make
 apt install -y openssl libssl-dev
 
 ## CMAKE - for compilation
-cd /hk
+#cd /hk
 #mkdir ~/cmake
 #cd ~/cmake
-git clone https://github.com/Kitware/CMake.git
-cd CMake
-./bootstrap && make -j && make install -j
+#git clone https://github.com/Kitware/CMake.git
+#cd CMake
+#./bootstrap && make -j && make install -j
 
 ## JAVA - for YCSB build
 apt install -y default-jre openjdk-11-jre-headless openjdk-8-jre-headless
