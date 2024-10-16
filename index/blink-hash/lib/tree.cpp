@@ -689,12 +689,16 @@ Value_t btree_t<Key_t, Value_t>::find_anyway(Key_t key){
 
 template <typename Key_t, typename Value_t>
 double btree_t<Key_t, Value_t>::utilization(){
+	uint64_t inode_in_byte = 0;
+	uint64_t lnode_btree_in_byte = 0;
+	uint64_t lnode_hash_in_byte = 0;
     auto cur = root;
     auto node = cur;
     while(cur->level != 0){
 	uint64_t total = 0;
 	uint64_t count = 0;
 	while(node){
+		inode_in_byte += PAGE_SIZE;
 	    total += inode_t<Key_t>::cardinality;
 	    count += node->get_cnt();
 	    node = node->sibling_ptr;
@@ -708,12 +712,20 @@ double btree_t<Key_t, Value_t>::utilization(){
     int leaf_cnt = 0;
     double util = 0;
     do{
+	if(leaf->type == 0){
+		lnode_btree_in_byte += LEAF_BTREE_SIZE;
+	}else if(leaf->type == 1){
+		lnode_hash_in_byte += LEAF_HASH_SIZE;
+	}
+	
 	leaf_cnt++;
 	util += leaf->utilization();
 
 	leaf = static_cast<lnode_t<Key_t, Value_t>*>(leaf->sibling_ptr);
     }while(leaf);
     std::cout << "leaf " << (double)util/leaf_cnt*100.0 << " \%" << std::endl;
+	std::cout << "inode bytes: "<<inode_in_byte<<" btree node bytes: "<<lnode_btree_in_byte<<" hash node bytes: "<<lnode_hash_in_byte<<std::endl;
+	std::cout << "total memory used in GB: "<<(double)(inode_in_byte + lnode_btree_in_byte + lnode_hash_in_byte)/(1024*1024*1024)<<std::endl;
     return util/leaf_cnt*100.0;
 }
 

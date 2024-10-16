@@ -139,13 +139,16 @@ int main(int argc, char* argv[]){
     };
 
     struct timespec start, end;
-
     clock_gettime(CLOCK_MONOTONIC, &start);
+	// printf("Insert begin---\n");
+	// sleep(10);
     if(mode == 3) // insert_only
 	start_threads(tree, num_threads, load_earliest, false);
     else
 	start_threads(tree, num_threads, load, false);
     clock_gettime(CLOCK_MONOTONIC, &end);
+	// std::cout<<"After Loading --- sleep 10s\n";
+	// sleep(10);
 
     if(mode == 3){
 	uint64_t num = 0;
@@ -239,7 +242,6 @@ int main(int argc, char* argv[]){
 	size_t end = chunk * (tid+1);
 	if(end > (size_t)num_data)
 	    end = num_data;
-
 	for(auto i=start; i<end; i++){
 	    auto t = tree->getThreadInfo();
 	    auto ret = tree->lookup(ops[i].first.key, t);
@@ -289,22 +291,32 @@ int main(int argc, char* argv[]){
     };
 
     if(mode == 0){
+	// printf("scan begin sleep 10\n");
+	// sleep(10);	
 	clock_gettime(CLOCK_MONOTONIC, &start);
 	start_threads(tree, num_threads, scan, false);
 	clock_gettime(CLOCK_MONOTONIC, &end);
-
+	// printf("scan finish sleep 10\n");
+	// sleep(10);
+	tree->utilization();
 	std::cout << "Scan: " ;
     }
     else if(mode == 1){
+	// printf("read begin sleep 10\n");
+	// sleep(10);
 	clock_gettime(CLOCK_MONOTONIC, &start);
 	start_threads(tree, num_threads, read, false);
 	clock_gettime(CLOCK_MONOTONIC, &end);
+	// printf("read finish sleep 10\n");
+	// sleep(10);
+	tree->utilization();
 	std::cout << "Read: "; 
     }
     else{
 	clock_gettime(CLOCK_MONOTONIC, &start);
 	start_threads(tree, num_threads, mix, false);
 	clock_gettime(CLOCK_MONOTONIC, &end);
+	tree->utilization();
 	std::cout << "Mix: "; 
     }
     uint64_t num = 0;
