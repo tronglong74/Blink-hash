@@ -22,6 +22,7 @@ bool open_input(std::ifstream& ifs, std::string path){
 
 bool close_input(std::ifstream& ifs){
     ifs.close();
+		return true;
 }
 
 void collect_emails(std::ifstream& ifs, std::unordered_map<std::string, bool>& data){

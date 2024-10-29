@@ -1,4 +1,4 @@
-# Install script for directory: /home/xpzhang/Blink-hash/index/hot/lib/hot
+# Install script for directory: /home/longnguyen/Blink-hash/index/hot/lib/hot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,9 +44,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/xpzhang/Blink-hash/index/hot/build/lib/hot/commons/cmake_install.cmake")
-  include("/home/xpzhang/Blink-hash/index/hot/build/lib/hot/rowex/cmake_install.cmake")
-  include("/home/xpzhang/Blink-hash/index/hot/build/lib/hot/single-threaded/cmake_install.cmake")
+  include("/home/longnguyen/Blink-hash/index/hot/build/lib/hot/commons/cmake_install.cmake")
+  include("/home/longnguyen/Blink-hash/index/hot/build/lib/hot/rowex/cmake_install.cmake")
+  include("/home/longnguyen/Blink-hash/index/hot/build/lib/hot/single-threaded/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/xpzhang/Blink-hash/index/hot/lib/idx/content-helpers
+# Install script for directory: /home/longnguyen/Blink-hash/index/hot/lib/idx/content-helpers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

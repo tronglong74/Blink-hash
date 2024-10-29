@@ -1,4 +1,4 @@
-# Install script for directory: /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex
+# Install script for directory: /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

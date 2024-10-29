@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xpzhang/Blink-hash/index/blink-hash-str
+CMAKE_SOURCE_DIR = /home/longnguyen/Blink-hash/index/blink-hash-str
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xpzhang/Blink-hash/index/blink-hash-str/build
+CMAKE_BINARY_DIR = /home/longnguyen/Blink-hash/index/blink-hash-str/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles /home/xpzhang/Blink-hash/index/blink-hash-str/build/lib//CMakeFiles/progress.marks
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles 0
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles /home/longnguyen/Blink-hash/index/blink-hash-str/build/lib//CMakeFiles/progress.marks
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/blinkhash.dir/rule:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/blinkhash.dir/rule
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/blinkhash.dir/rule
 .PHONY : lib/CMakeFiles/blinkhash.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ blinkhash: lib/CMakeFiles/blinkhash.dir/rule
 
 # fast build rule for target.
 blinkhash/fast:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/build
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/build
 .PHONY : blinkhash/fast
 
 Epoche.o: Epoche.cpp.o
@@ -180,7 +180,7 @@ Epoche.o: Epoche.cpp.o
 
 # target to build an object file
 Epoche.cpp.o:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/Epoche.cpp.o
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/Epoche.cpp.o
 .PHONY : Epoche.cpp.o
 
 Epoche.i: Epoche.cpp.i
@@ -188,7 +188,7 @@ Epoche.i: Epoche.cpp.i
 
 # target to preprocess a source file
 Epoche.cpp.i:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/Epoche.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/Epoche.cpp.i
 .PHONY : Epoche.cpp.i
 
 Epoche.s: Epoche.cpp.s
@@ -196,7 +196,7 @@ Epoche.s: Epoche.cpp.s
 
 # target to generate assembly for a file
 Epoche.cpp.s:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/Epoche.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/Epoche.cpp.s
 .PHONY : Epoche.cpp.s
 
 hash.o: hash.cpp.o
@@ -204,7 +204,7 @@ hash.o: hash.cpp.o
 
 # target to build an object file
 hash.cpp.o:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/hash.cpp.o
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/hash.cpp.o
 .PHONY : hash.cpp.o
 
 hash.i: hash.cpp.i
@@ -212,7 +212,7 @@ hash.i: hash.cpp.i
 
 # target to preprocess a source file
 hash.cpp.i:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/hash.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/hash.cpp.i
 .PHONY : hash.cpp.i
 
 hash.s: hash.cpp.s
@@ -220,7 +220,7 @@ hash.s: hash.cpp.s
 
 # target to generate assembly for a file
 hash.cpp.s:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/hash.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/hash.cpp.s
 .PHONY : hash.cpp.s
 
 inode.o: inode.cpp.o
@@ -228,7 +228,7 @@ inode.o: inode.cpp.o
 
 # target to build an object file
 inode.cpp.o:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/inode.cpp.o
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/inode.cpp.o
 .PHONY : inode.cpp.o
 
 inode.i: inode.cpp.i
@@ -236,7 +236,7 @@ inode.i: inode.cpp.i
 
 # target to preprocess a source file
 inode.cpp.i:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/inode.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/inode.cpp.i
 .PHONY : inode.cpp.i
 
 inode.s: inode.cpp.s
@@ -244,7 +244,7 @@ inode.s: inode.cpp.s
 
 # target to generate assembly for a file
 inode.cpp.s:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/inode.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/inode.cpp.s
 .PHONY : inode.cpp.s
 
 lnode.o: lnode.cpp.o
@@ -252,7 +252,7 @@ lnode.o: lnode.cpp.o
 
 # target to build an object file
 lnode.cpp.o:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode.cpp.o
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode.cpp.o
 .PHONY : lnode.cpp.o
 
 lnode.i: lnode.cpp.i
@@ -260,7 +260,7 @@ lnode.i: lnode.cpp.i
 
 # target to preprocess a source file
 lnode.cpp.i:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode.cpp.i
 .PHONY : lnode.cpp.i
 
 lnode.s: lnode.cpp.s
@@ -268,7 +268,7 @@ lnode.s: lnode.cpp.s
 
 # target to generate assembly for a file
 lnode.cpp.s:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode.cpp.s
 .PHONY : lnode.cpp.s
 
 lnode_btree.o: lnode_btree.cpp.o
@@ -276,7 +276,7 @@ lnode_btree.o: lnode_btree.cpp.o
 
 # target to build an object file
 lnode_btree.cpp.o:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode_btree.cpp.o
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode_btree.cpp.o
 .PHONY : lnode_btree.cpp.o
 
 lnode_btree.i: lnode_btree.cpp.i
@@ -284,7 +284,7 @@ lnode_btree.i: lnode_btree.cpp.i
 
 # target to preprocess a source file
 lnode_btree.cpp.i:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode_btree.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode_btree.cpp.i
 .PHONY : lnode_btree.cpp.i
 
 lnode_btree.s: lnode_btree.cpp.s
@@ -292,7 +292,7 @@ lnode_btree.s: lnode_btree.cpp.s
 
 # target to generate assembly for a file
 lnode_btree.cpp.s:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode_btree.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode_btree.cpp.s
 .PHONY : lnode_btree.cpp.s
 
 lnode_hash.o: lnode_hash.cpp.o
@@ -300,7 +300,7 @@ lnode_hash.o: lnode_hash.cpp.o
 
 # target to build an object file
 lnode_hash.cpp.o:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode_hash.cpp.o
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode_hash.cpp.o
 .PHONY : lnode_hash.cpp.o
 
 lnode_hash.i: lnode_hash.cpp.i
@@ -308,7 +308,7 @@ lnode_hash.i: lnode_hash.cpp.i
 
 # target to preprocess a source file
 lnode_hash.cpp.i:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode_hash.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode_hash.cpp.i
 .PHONY : lnode_hash.cpp.i
 
 lnode_hash.s: lnode_hash.cpp.s
@@ -316,7 +316,7 @@ lnode_hash.s: lnode_hash.cpp.s
 
 # target to generate assembly for a file
 lnode_hash.cpp.s:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode_hash.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/lnode_hash.cpp.s
 .PHONY : lnode_hash.cpp.s
 
 tree.o: tree.cpp.o
@@ -324,7 +324,7 @@ tree.o: tree.cpp.o
 
 # target to build an object file
 tree.cpp.o:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/tree.cpp.o
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/tree.cpp.o
 .PHONY : tree.cpp.o
 
 tree.i: tree.cpp.i
@@ -332,7 +332,7 @@ tree.i: tree.cpp.i
 
 # target to preprocess a source file
 tree.cpp.i:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/tree.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/tree.cpp.i
 .PHONY : tree.cpp.i
 
 tree.s: tree.cpp.s
@@ -340,7 +340,7 @@ tree.s: tree.cpp.s
 
 # target to generate assembly for a file
 tree.cpp.s:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/tree.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/tree.cpp.s
 .PHONY : tree.cpp.s
 
 # Help Target
@@ -388,6 +388,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/xpzhang/Blink-hash/index/blink-hash-str/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/longnguyen/Blink-hash/index/blink-hash-str/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/xpzhang/Blink-hash/index/hot/lib/idx
+# Install script for directory: /home/longnguyen/Blink-hash/index/hot/lib/idx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/xpzhang/Blink-hash/index/hot/build/lib/idx/content-helpers/cmake_install.cmake")
+  include("/home/longnguyen/Blink-hash/index/hot/build/lib/idx/content-helpers/cmake_install.cmake")
 
 endif()
 

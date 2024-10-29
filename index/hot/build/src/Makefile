@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xpzhang/Blink-hash/index/hot
+CMAKE_SOURCE_DIR = /home/longnguyen/Blink-hash/index/hot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xpzhang/Blink-hash/index/hot/build
+CMAKE_BINARY_DIR = /home/longnguyen/Blink-hash/index/hot/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/xpzhang/Blink-hash/index/hot/build/CMakeFiles /home/xpzhang/Blink-hash/index/hot/build/src//CMakeFiles/progress.marks
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xpzhang/Blink-hash/index/hot/build/CMakeFiles 0
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/longnguyen/Blink-hash/index/hot/build/CMakeFiles /home/longnguyen/Blink-hash/index/hot/build/src//CMakeFiles/progress.marks
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/longnguyen/Blink-hash/index/hot/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/hot-rowex.dir/rule:
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/hot-rowex.dir/rule
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/hot-rowex.dir/rule
 .PHONY : src/CMakeFiles/hot-rowex.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ hot-rowex: src/CMakeFiles/hot-rowex.dir/rule
 
 # fast build rule for target.
 hot-rowex/fast:
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex.dir/build.make src/CMakeFiles/hot-rowex.dir/build
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex.dir/build.make src/CMakeFiles/hot-rowex.dir/build
 .PHONY : hot-rowex/fast
 
 # Convenience name for target.
 src/CMakeFiles/hot-rowex-breakdown.dir/rule:
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/hot-rowex-breakdown.dir/rule
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/hot-rowex-breakdown.dir/rule
 .PHONY : src/CMakeFiles/hot-rowex-breakdown.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ hot-rowex-breakdown: src/CMakeFiles/hot-rowex-breakdown.dir/rule
 
 # fast build rule for target.
 hot-rowex-breakdown/fast:
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex-breakdown.dir/build.make src/CMakeFiles/hot-rowex-breakdown.dir/build
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex-breakdown.dir/build.make src/CMakeFiles/hot-rowex-breakdown.dir/build
 .PHONY : hot-rowex-breakdown/fast
 
 # Convenience name for target.
 src/CMakeFiles/hot-rowex-str.dir/rule:
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/hot-rowex-str.dir/rule
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/hot-rowex-str.dir/rule
 .PHONY : src/CMakeFiles/hot-rowex-str.dir/rule
 
 # Convenience name for target.
@@ -200,7 +200,7 @@ hot-rowex-str: src/CMakeFiles/hot-rowex-str.dir/rule
 
 # fast build rule for target.
 hot-rowex-str/fast:
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex-str.dir/build.make src/CMakeFiles/hot-rowex-str.dir/build
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex-str.dir/build.make src/CMakeFiles/hot-rowex-str.dir/build
 .PHONY : hot-rowex-str/fast
 
 wrapper.o: wrapper.cpp.o
@@ -208,9 +208,9 @@ wrapper.o: wrapper.cpp.o
 
 # target to build an object file
 wrapper.cpp.o:
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex.dir/build.make src/CMakeFiles/hot-rowex.dir/wrapper.cpp.o
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex-breakdown.dir/build.make src/CMakeFiles/hot-rowex-breakdown.dir/wrapper.cpp.o
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex-str.dir/build.make src/CMakeFiles/hot-rowex-str.dir/wrapper.cpp.o
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex.dir/build.make src/CMakeFiles/hot-rowex.dir/wrapper.cpp.o
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex-breakdown.dir/build.make src/CMakeFiles/hot-rowex-breakdown.dir/wrapper.cpp.o
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex-str.dir/build.make src/CMakeFiles/hot-rowex-str.dir/wrapper.cpp.o
 .PHONY : wrapper.cpp.o
 
 wrapper.i: wrapper.cpp.i
@@ -218,9 +218,9 @@ wrapper.i: wrapper.cpp.i
 
 # target to preprocess a source file
 wrapper.cpp.i:
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex.dir/build.make src/CMakeFiles/hot-rowex.dir/wrapper.cpp.i
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex-breakdown.dir/build.make src/CMakeFiles/hot-rowex-breakdown.dir/wrapper.cpp.i
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex-str.dir/build.make src/CMakeFiles/hot-rowex-str.dir/wrapper.cpp.i
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex.dir/build.make src/CMakeFiles/hot-rowex.dir/wrapper.cpp.i
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex-breakdown.dir/build.make src/CMakeFiles/hot-rowex-breakdown.dir/wrapper.cpp.i
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex-str.dir/build.make src/CMakeFiles/hot-rowex-str.dir/wrapper.cpp.i
 .PHONY : wrapper.cpp.i
 
 wrapper.s: wrapper.cpp.s
@@ -228,9 +228,9 @@ wrapper.s: wrapper.cpp.s
 
 # target to generate assembly for a file
 wrapper.cpp.s:
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex.dir/build.make src/CMakeFiles/hot-rowex.dir/wrapper.cpp.s
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex-breakdown.dir/build.make src/CMakeFiles/hot-rowex-breakdown.dir/wrapper.cpp.s
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex-str.dir/build.make src/CMakeFiles/hot-rowex-str.dir/wrapper.cpp.s
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex.dir/build.make src/CMakeFiles/hot-rowex.dir/wrapper.cpp.s
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex-breakdown.dir/build.make src/CMakeFiles/hot-rowex-breakdown.dir/wrapper.cpp.s
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hot-rowex-str.dir/build.make src/CMakeFiles/hot-rowex-str.dir/wrapper.cpp.s
 .PHONY : wrapper.cpp.s
 
 # Help Target
@@ -262,6 +262,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/xpzhang/Blink-hash/index/hot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/longnguyen/Blink-hash/index/hot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

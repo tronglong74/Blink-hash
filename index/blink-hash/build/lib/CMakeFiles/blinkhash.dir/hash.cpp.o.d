@@ -1,7 +1,7 @@
 lib/CMakeFiles/blinkhash.dir/hash.cpp.o: \
- /home/xpzhang/Blink-hash/index/blink-hash/lib/hash.cpp \
+ /home/longnguyen/Blink-hash/index/blink-hash/lib/hash.cpp \
  /usr/include/stdc-predef.h \
- /home/xpzhang/Blink-hash/index/blink-hash/lib/hash.h \
+ /home/longnguyen/Blink-hash/index/blink-hash/lib/hash.h \
  /usr/include/c++/11/functional \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

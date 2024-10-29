@@ -1,8 +1,8 @@
 lib/CMakeFiles/blinkhash.dir/lnode_hash.cpp.o: \
- /home/xpzhang/Blink-hash/index/blink-hash-str/lib/lnode_hash.cpp \
+ /home/longnguyen/Blink-hash/index/blink-hash-str/lib/lnode_hash.cpp \
  /usr/include/stdc-predef.h \
- /home/xpzhang/Blink-hash/index/blink-hash-str/lib/lnode.h \
- /home/xpzhang/Blink-hash/index/blink-hash-str/lib/node.h \
+ /home/longnguyen/Blink-hash/index/blink-hash-str/lib/lnode.h \
+ /home/longnguyen/Blink-hash/index/blink-hash-str/lib/node.h \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -229,9 +229,9 @@ lib/CMakeFiles/blinkhash.dir/lnode_hash.cpp.o: \
  /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/ctime \
  /usr/include/c++/11/bits/parse_numbers.h \
- /home/xpzhang/Blink-hash/index/blink-hash-str/lib/common.h \
+ /home/longnguyen/Blink-hash/index/blink-hash-str/lib/common.h \
  /usr/include/c++/11/cassert /usr/include/assert.h \
- /home/xpzhang/Blink-hash/index/blink-hash-str/lib/../../../include/indexkey.h \
+ /home/longnguyen/Blink-hash/index/blink-hash-str/lib/../../../include/indexkey.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/x86intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/x86gprintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/ia32intrin.h \
@@ -322,6 +322,6 @@ lib/CMakeFiles/blinkhash.dir/lnode_hash.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/fma4intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/ammintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/xopintrin.h \
- /home/xpzhang/Blink-hash/index/blink-hash-str/lib/bucket.h \
- /home/xpzhang/Blink-hash/index/blink-hash-str/lib/entry.h \
- /home/xpzhang/Blink-hash/index/blink-hash-str/lib/hash.h
+ /home/longnguyen/Blink-hash/index/blink-hash-str/lib/bucket.h \
+ /home/longnguyen/Blink-hash/index/blink-hash-str/lib/entry.h \
+ /home/longnguyen/Blink-hash/index/blink-hash-str/lib/hash.h

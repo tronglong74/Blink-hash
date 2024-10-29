@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xpzhang/Blink-hash/index/blink-hash
+CMAKE_SOURCE_DIR = /home/longnguyen/Blink-hash/index/blink-hash
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xpzhang/Blink-hash/index/blink-hash/build
+CMAKE_BINARY_DIR = /home/longnguyen/Blink-hash/index/blink-hash/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/xpzhang/Blink-hash/index/blink-hash/build/CMakeFiles /home/xpzhang/Blink-hash/index/blink-hash/build/test//CMakeFiles/progress.marks
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xpzhang/Blink-hash/index/blink-hash/build/CMakeFiles 0
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/longnguyen/Blink-hash/index/blink-hash/build/CMakeFiles /home/longnguyen/Blink-hash/index/blink-hash/build/test//CMakeFiles/progress.marks
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/longnguyen/Blink-hash/index/blink-hash/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/test.dir/rule:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test.dir/rule
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test.dir/rule
 .PHONY : test/CMakeFiles/test.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ test: test/CMakeFiles/test.dir/rule
 
 # fast build rule for target.
 test/fast:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
 .PHONY : test/fast
 
 # Convenience name for target.
 test/CMakeFiles/range.dir/rule:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/range.dir/rule
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/range.dir/rule
 .PHONY : test/CMakeFiles/range.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ range: test/CMakeFiles/range.dir/rule
 
 # fast build rule for target.
 range/fast:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/range.dir/build.make test/CMakeFiles/range.dir/build
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/range.dir/build.make test/CMakeFiles/range.dir/build
 .PHONY : range/fast
 
 # Convenience name for target.
 test/CMakeFiles/rdtsc.dir/rule:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/rdtsc.dir/rule
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/rdtsc.dir/rule
 .PHONY : test/CMakeFiles/rdtsc.dir/rule
 
 # Convenience name for target.
@@ -200,12 +200,12 @@ rdtsc: test/CMakeFiles/rdtsc.dir/rule
 
 # fast build rule for target.
 rdtsc/fast:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/rdtsc.dir/build.make test/CMakeFiles/rdtsc.dir/build
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/rdtsc.dir/build.make test/CMakeFiles/rdtsc.dir/build
 .PHONY : rdtsc/fast
 
 # Convenience name for target.
 test/CMakeFiles/mixed.dir/rule:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/mixed.dir/rule
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/mixed.dir/rule
 .PHONY : test/CMakeFiles/mixed.dir/rule
 
 # Convenience name for target.
@@ -214,12 +214,12 @@ mixed: test/CMakeFiles/mixed.dir/rule
 
 # fast build rule for target.
 mixed/fast:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mixed.dir/build.make test/CMakeFiles/mixed.dir/build
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mixed.dir/build.make test/CMakeFiles/mixed.dir/build
 .PHONY : mixed/fast
 
 # Convenience name for target.
 test/CMakeFiles/timestamp.dir/rule:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/timestamp.dir/rule
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/timestamp.dir/rule
 .PHONY : test/CMakeFiles/timestamp.dir/rule
 
 # Convenience name for target.
@@ -228,7 +228,7 @@ timestamp: test/CMakeFiles/timestamp.dir/rule
 
 # fast build rule for target.
 timestamp/fast:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/timestamp.dir/build.make test/CMakeFiles/timestamp.dir/build
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/timestamp.dir/build.make test/CMakeFiles/timestamp.dir/build
 .PHONY : timestamp/fast
 
 mixed.o: mixed.cpp.o
@@ -236,7 +236,7 @@ mixed.o: mixed.cpp.o
 
 # target to build an object file
 mixed.cpp.o:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mixed.dir/build.make test/CMakeFiles/mixed.dir/mixed.cpp.o
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mixed.dir/build.make test/CMakeFiles/mixed.dir/mixed.cpp.o
 .PHONY : mixed.cpp.o
 
 mixed.i: mixed.cpp.i
@@ -244,7 +244,7 @@ mixed.i: mixed.cpp.i
 
 # target to preprocess a source file
 mixed.cpp.i:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mixed.dir/build.make test/CMakeFiles/mixed.dir/mixed.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mixed.dir/build.make test/CMakeFiles/mixed.dir/mixed.cpp.i
 .PHONY : mixed.cpp.i
 
 mixed.s: mixed.cpp.s
@@ -252,7 +252,7 @@ mixed.s: mixed.cpp.s
 
 # target to generate assembly for a file
 mixed.cpp.s:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mixed.dir/build.make test/CMakeFiles/mixed.dir/mixed.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mixed.dir/build.make test/CMakeFiles/mixed.dir/mixed.cpp.s
 .PHONY : mixed.cpp.s
 
 range.o: range.cpp.o
@@ -260,7 +260,7 @@ range.o: range.cpp.o
 
 # target to build an object file
 range.cpp.o:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/range.dir/build.make test/CMakeFiles/range.dir/range.cpp.o
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/range.dir/build.make test/CMakeFiles/range.dir/range.cpp.o
 .PHONY : range.cpp.o
 
 range.i: range.cpp.i
@@ -268,7 +268,7 @@ range.i: range.cpp.i
 
 # target to preprocess a source file
 range.cpp.i:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/range.dir/build.make test/CMakeFiles/range.dir/range.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/range.dir/build.make test/CMakeFiles/range.dir/range.cpp.i
 .PHONY : range.cpp.i
 
 range.s: range.cpp.s
@@ -276,7 +276,7 @@ range.s: range.cpp.s
 
 # target to generate assembly for a file
 range.cpp.s:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/range.dir/build.make test/CMakeFiles/range.dir/range.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/range.dir/build.make test/CMakeFiles/range.dir/range.cpp.s
 .PHONY : range.cpp.s
 
 rdtsc.o: rdtsc.cpp.o
@@ -284,7 +284,7 @@ rdtsc.o: rdtsc.cpp.o
 
 # target to build an object file
 rdtsc.cpp.o:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/rdtsc.dir/build.make test/CMakeFiles/rdtsc.dir/rdtsc.cpp.o
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/rdtsc.dir/build.make test/CMakeFiles/rdtsc.dir/rdtsc.cpp.o
 .PHONY : rdtsc.cpp.o
 
 rdtsc.i: rdtsc.cpp.i
@@ -292,7 +292,7 @@ rdtsc.i: rdtsc.cpp.i
 
 # target to preprocess a source file
 rdtsc.cpp.i:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/rdtsc.dir/build.make test/CMakeFiles/rdtsc.dir/rdtsc.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/rdtsc.dir/build.make test/CMakeFiles/rdtsc.dir/rdtsc.cpp.i
 .PHONY : rdtsc.cpp.i
 
 rdtsc.s: rdtsc.cpp.s
@@ -300,7 +300,7 @@ rdtsc.s: rdtsc.cpp.s
 
 # target to generate assembly for a file
 rdtsc.cpp.s:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/rdtsc.dir/build.make test/CMakeFiles/rdtsc.dir/rdtsc.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/rdtsc.dir/build.make test/CMakeFiles/rdtsc.dir/rdtsc.cpp.s
 .PHONY : rdtsc.cpp.s
 
 test.o: test.cpp.o
@@ -308,7 +308,7 @@ test.o: test.cpp.o
 
 # target to build an object file
 test.cpp.o:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cpp.o
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cpp.o
 .PHONY : test.cpp.o
 
 test.i: test.cpp.i
@@ -316,7 +316,7 @@ test.i: test.cpp.i
 
 # target to preprocess a source file
 test.cpp.i:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cpp.i
 .PHONY : test.cpp.i
 
 test.s: test.cpp.s
@@ -324,7 +324,7 @@ test.s: test.cpp.s
 
 # target to generate assembly for a file
 test.cpp.s:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cpp.s
 .PHONY : test.cpp.s
 
 timestamp.o: timestamp.cpp.o
@@ -332,7 +332,7 @@ timestamp.o: timestamp.cpp.o
 
 # target to build an object file
 timestamp.cpp.o:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/timestamp.dir/build.make test/CMakeFiles/timestamp.dir/timestamp.cpp.o
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/timestamp.dir/build.make test/CMakeFiles/timestamp.dir/timestamp.cpp.o
 .PHONY : timestamp.cpp.o
 
 timestamp.i: timestamp.cpp.i
@@ -340,7 +340,7 @@ timestamp.i: timestamp.cpp.i
 
 # target to preprocess a source file
 timestamp.cpp.i:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/timestamp.dir/build.make test/CMakeFiles/timestamp.dir/timestamp.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/timestamp.dir/build.make test/CMakeFiles/timestamp.dir/timestamp.cpp.i
 .PHONY : timestamp.cpp.i
 
 timestamp.s: timestamp.cpp.s
@@ -348,7 +348,7 @@ timestamp.s: timestamp.cpp.s
 
 # target to generate assembly for a file
 timestamp.cpp.s:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/timestamp.dir/build.make test/CMakeFiles/timestamp.dir/timestamp.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/timestamp.dir/build.make test/CMakeFiles/timestamp.dir/timestamp.cpp.s
 .PHONY : timestamp.cpp.s
 
 # Help Target
@@ -394,6 +394,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

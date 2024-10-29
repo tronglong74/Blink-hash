@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DADAPTATION -DAVX_128 -DFINGERPRINT -DLINKED -DSAMPLING
 
-CXX_INCLUDES = -I/home/xpzhang/Blink-hash/index/blink-hash/lib -isystem /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include
+CXX_INCLUDES = -I/home/longnguyen/Blink-hash/index/blink-hash/lib -isystem /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include
 
 CXX_FLAGS = -std=c++17 -pthread -march=native -mavx2 -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -faligned-new=64 -O3
 

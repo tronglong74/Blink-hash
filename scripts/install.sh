@@ -37,19 +37,20 @@ cd -
 apt install -y unrar
 
 ## perf - for performance analysis
-apt install -y linux-tools-common linux-tools-generic linux-tools-$(uname -r)
+apt install -y linux-tools-common linux-tools-generic 
+#apt install -y linux-tools-$(uname -r)
 #sudo apt-get install google-perftools
 
 ## TBB - for multi-threaded runs
 apt install -y libtbb-dev libtbb2
 
 ## PAPI - for performance analysis
-apt install -y libpapi5 libpapi-dev
+apt install -y libpapi5.7 libpapi-dev
 
 ## TCMALLOC - for faster allocator
-apt install -y libtcmalloc-minimal4
+apt install -y  
 #ln -s /usr/lib/aarch64-linux-gnu/libtcmalloc_minimal.so.4.3.0 /usr/lib/libtcmalloc_minimal.so 	# arm
-ln -s /usr/lib/x86_64-linux-gnu/libtcmalloc_minimal.so.4.3.0 /usr/lib/libtcmalloc_minimal.so	# x86
+ln -s /usr/lib/x86_64-linux-gnu/libtcmalloc_minimal.so.4.5.3 /usr/lib/libtcmalloc_minimal.so	# x86
 
 ## likwid - for measuring memory bandwidth
 apt install -y likwid

@@ -1,4 +1,4 @@
-# Install script for directory: /home/xpzhang/Blink-hash/index/hot/src
+# Install script for directory: /home/longnguyen/Blink-hash/index/hot/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,37 +44,37 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xpzhang/Blink-hash/index/hot/libhot-rowex.a")
+   "/home/longnguyen/Blink-hash/index/hot/libhot-rowex.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/xpzhang/Blink-hash/index/hot" TYPE STATIC_LIBRARY FILES "/home/xpzhang/Blink-hash/index/hot/build/src/libhot-rowex.a")
+  file(INSTALL DESTINATION "/home/longnguyen/Blink-hash/index/hot" TYPE STATIC_LIBRARY FILES "/home/longnguyen/Blink-hash/index/hot/build/src/libhot-rowex.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xpzhang/Blink-hash/index/hot/libhot-rowex-breakdown.a")
+   "/home/longnguyen/Blink-hash/index/hot/libhot-rowex-breakdown.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/xpzhang/Blink-hash/index/hot" TYPE STATIC_LIBRARY FILES "/home/xpzhang/Blink-hash/index/hot/build/src/libhot-rowex-breakdown.a")
+  file(INSTALL DESTINATION "/home/longnguyen/Blink-hash/index/hot" TYPE STATIC_LIBRARY FILES "/home/longnguyen/Blink-hash/index/hot/build/src/libhot-rowex-breakdown.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xpzhang/Blink-hash/index/hot/libhot-rowex.a")
+   "/home/longnguyen/Blink-hash/index/hot/libhot-rowex.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/xpzhang/Blink-hash/index/hot" TYPE STATIC_LIBRARY FILES "/home/xpzhang/Blink-hash/index/hot/build/src/libhot-rowex.a")
+  file(INSTALL DESTINATION "/home/longnguyen/Blink-hash/index/hot" TYPE STATIC_LIBRARY FILES "/home/longnguyen/Blink-hash/index/hot/build/src/libhot-rowex.a")
 endif()
 

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xpzhang/Blink-hash/index/blink-hash
+CMAKE_SOURCE_DIR = /home/longnguyen/Blink-hash/index/blink-hash
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xpzhang/Blink-hash/index/blink-hash/build
+CMAKE_BINARY_DIR = /home/longnguyen/Blink-hash/index/blink-hash/build
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/adapt.dir/depend.make
@@ -70,102 +70,102 @@ include lib/CMakeFiles/adapt.dir/progress.make
 include lib/CMakeFiles/adapt.dir/flags.make
 
 lib/CMakeFiles/adapt.dir/Epoche.cpp.o: lib/CMakeFiles/adapt.dir/flags.make
-lib/CMakeFiles/adapt.dir/Epoche.cpp.o: /home/xpzhang/Blink-hash/index/blink-hash/lib/Epoche.cpp
+lib/CMakeFiles/adapt.dir/Epoche.cpp.o: /home/longnguyen/Blink-hash/index/blink-hash/lib/Epoche.cpp
 lib/CMakeFiles/adapt.dir/Epoche.cpp.o: lib/CMakeFiles/adapt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xpzhang/Blink-hash/index/blink-hash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/adapt.dir/Epoche.cpp.o"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/adapt.dir/Epoche.cpp.o -MF CMakeFiles/adapt.dir/Epoche.cpp.o.d -o CMakeFiles/adapt.dir/Epoche.cpp.o -c /home/xpzhang/Blink-hash/index/blink-hash/lib/Epoche.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longnguyen/Blink-hash/index/blink-hash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/adapt.dir/Epoche.cpp.o"
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/adapt.dir/Epoche.cpp.o -MF CMakeFiles/adapt.dir/Epoche.cpp.o.d -o CMakeFiles/adapt.dir/Epoche.cpp.o -c /home/longnguyen/Blink-hash/index/blink-hash/lib/Epoche.cpp
 
 lib/CMakeFiles/adapt.dir/Epoche.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adapt.dir/Epoche.cpp.i"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xpzhang/Blink-hash/index/blink-hash/lib/Epoche.cpp > CMakeFiles/adapt.dir/Epoche.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longnguyen/Blink-hash/index/blink-hash/lib/Epoche.cpp > CMakeFiles/adapt.dir/Epoche.cpp.i
 
 lib/CMakeFiles/adapt.dir/Epoche.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adapt.dir/Epoche.cpp.s"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xpzhang/Blink-hash/index/blink-hash/lib/Epoche.cpp -o CMakeFiles/adapt.dir/Epoche.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longnguyen/Blink-hash/index/blink-hash/lib/Epoche.cpp -o CMakeFiles/adapt.dir/Epoche.cpp.s
 
 lib/CMakeFiles/adapt.dir/hash.cpp.o: lib/CMakeFiles/adapt.dir/flags.make
-lib/CMakeFiles/adapt.dir/hash.cpp.o: /home/xpzhang/Blink-hash/index/blink-hash/lib/hash.cpp
+lib/CMakeFiles/adapt.dir/hash.cpp.o: /home/longnguyen/Blink-hash/index/blink-hash/lib/hash.cpp
 lib/CMakeFiles/adapt.dir/hash.cpp.o: lib/CMakeFiles/adapt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xpzhang/Blink-hash/index/blink-hash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/adapt.dir/hash.cpp.o"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/adapt.dir/hash.cpp.o -MF CMakeFiles/adapt.dir/hash.cpp.o.d -o CMakeFiles/adapt.dir/hash.cpp.o -c /home/xpzhang/Blink-hash/index/blink-hash/lib/hash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longnguyen/Blink-hash/index/blink-hash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/adapt.dir/hash.cpp.o"
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/adapt.dir/hash.cpp.o -MF CMakeFiles/adapt.dir/hash.cpp.o.d -o CMakeFiles/adapt.dir/hash.cpp.o -c /home/longnguyen/Blink-hash/index/blink-hash/lib/hash.cpp
 
 lib/CMakeFiles/adapt.dir/hash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adapt.dir/hash.cpp.i"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xpzhang/Blink-hash/index/blink-hash/lib/hash.cpp > CMakeFiles/adapt.dir/hash.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longnguyen/Blink-hash/index/blink-hash/lib/hash.cpp > CMakeFiles/adapt.dir/hash.cpp.i
 
 lib/CMakeFiles/adapt.dir/hash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adapt.dir/hash.cpp.s"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xpzhang/Blink-hash/index/blink-hash/lib/hash.cpp -o CMakeFiles/adapt.dir/hash.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longnguyen/Blink-hash/index/blink-hash/lib/hash.cpp -o CMakeFiles/adapt.dir/hash.cpp.s
 
 lib/CMakeFiles/adapt.dir/inode.cpp.o: lib/CMakeFiles/adapt.dir/flags.make
-lib/CMakeFiles/adapt.dir/inode.cpp.o: /home/xpzhang/Blink-hash/index/blink-hash/lib/inode.cpp
+lib/CMakeFiles/adapt.dir/inode.cpp.o: /home/longnguyen/Blink-hash/index/blink-hash/lib/inode.cpp
 lib/CMakeFiles/adapt.dir/inode.cpp.o: lib/CMakeFiles/adapt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xpzhang/Blink-hash/index/blink-hash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/adapt.dir/inode.cpp.o"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/adapt.dir/inode.cpp.o -MF CMakeFiles/adapt.dir/inode.cpp.o.d -o CMakeFiles/adapt.dir/inode.cpp.o -c /home/xpzhang/Blink-hash/index/blink-hash/lib/inode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longnguyen/Blink-hash/index/blink-hash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/adapt.dir/inode.cpp.o"
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/adapt.dir/inode.cpp.o -MF CMakeFiles/adapt.dir/inode.cpp.o.d -o CMakeFiles/adapt.dir/inode.cpp.o -c /home/longnguyen/Blink-hash/index/blink-hash/lib/inode.cpp
 
 lib/CMakeFiles/adapt.dir/inode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adapt.dir/inode.cpp.i"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xpzhang/Blink-hash/index/blink-hash/lib/inode.cpp > CMakeFiles/adapt.dir/inode.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longnguyen/Blink-hash/index/blink-hash/lib/inode.cpp > CMakeFiles/adapt.dir/inode.cpp.i
 
 lib/CMakeFiles/adapt.dir/inode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adapt.dir/inode.cpp.s"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xpzhang/Blink-hash/index/blink-hash/lib/inode.cpp -o CMakeFiles/adapt.dir/inode.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longnguyen/Blink-hash/index/blink-hash/lib/inode.cpp -o CMakeFiles/adapt.dir/inode.cpp.s
 
 lib/CMakeFiles/adapt.dir/lnode.cpp.o: lib/CMakeFiles/adapt.dir/flags.make
-lib/CMakeFiles/adapt.dir/lnode.cpp.o: /home/xpzhang/Blink-hash/index/blink-hash/lib/lnode.cpp
+lib/CMakeFiles/adapt.dir/lnode.cpp.o: /home/longnguyen/Blink-hash/index/blink-hash/lib/lnode.cpp
 lib/CMakeFiles/adapt.dir/lnode.cpp.o: lib/CMakeFiles/adapt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xpzhang/Blink-hash/index/blink-hash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/CMakeFiles/adapt.dir/lnode.cpp.o"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/adapt.dir/lnode.cpp.o -MF CMakeFiles/adapt.dir/lnode.cpp.o.d -o CMakeFiles/adapt.dir/lnode.cpp.o -c /home/xpzhang/Blink-hash/index/blink-hash/lib/lnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longnguyen/Blink-hash/index/blink-hash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/CMakeFiles/adapt.dir/lnode.cpp.o"
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/adapt.dir/lnode.cpp.o -MF CMakeFiles/adapt.dir/lnode.cpp.o.d -o CMakeFiles/adapt.dir/lnode.cpp.o -c /home/longnguyen/Blink-hash/index/blink-hash/lib/lnode.cpp
 
 lib/CMakeFiles/adapt.dir/lnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adapt.dir/lnode.cpp.i"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xpzhang/Blink-hash/index/blink-hash/lib/lnode.cpp > CMakeFiles/adapt.dir/lnode.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longnguyen/Blink-hash/index/blink-hash/lib/lnode.cpp > CMakeFiles/adapt.dir/lnode.cpp.i
 
 lib/CMakeFiles/adapt.dir/lnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adapt.dir/lnode.cpp.s"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xpzhang/Blink-hash/index/blink-hash/lib/lnode.cpp -o CMakeFiles/adapt.dir/lnode.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longnguyen/Blink-hash/index/blink-hash/lib/lnode.cpp -o CMakeFiles/adapt.dir/lnode.cpp.s
 
 lib/CMakeFiles/adapt.dir/lnode_btree.cpp.o: lib/CMakeFiles/adapt.dir/flags.make
-lib/CMakeFiles/adapt.dir/lnode_btree.cpp.o: /home/xpzhang/Blink-hash/index/blink-hash/lib/lnode_btree.cpp
+lib/CMakeFiles/adapt.dir/lnode_btree.cpp.o: /home/longnguyen/Blink-hash/index/blink-hash/lib/lnode_btree.cpp
 lib/CMakeFiles/adapt.dir/lnode_btree.cpp.o: lib/CMakeFiles/adapt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xpzhang/Blink-hash/index/blink-hash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/CMakeFiles/adapt.dir/lnode_btree.cpp.o"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/adapt.dir/lnode_btree.cpp.o -MF CMakeFiles/adapt.dir/lnode_btree.cpp.o.d -o CMakeFiles/adapt.dir/lnode_btree.cpp.o -c /home/xpzhang/Blink-hash/index/blink-hash/lib/lnode_btree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longnguyen/Blink-hash/index/blink-hash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/CMakeFiles/adapt.dir/lnode_btree.cpp.o"
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/adapt.dir/lnode_btree.cpp.o -MF CMakeFiles/adapt.dir/lnode_btree.cpp.o.d -o CMakeFiles/adapt.dir/lnode_btree.cpp.o -c /home/longnguyen/Blink-hash/index/blink-hash/lib/lnode_btree.cpp
 
 lib/CMakeFiles/adapt.dir/lnode_btree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adapt.dir/lnode_btree.cpp.i"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xpzhang/Blink-hash/index/blink-hash/lib/lnode_btree.cpp > CMakeFiles/adapt.dir/lnode_btree.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longnguyen/Blink-hash/index/blink-hash/lib/lnode_btree.cpp > CMakeFiles/adapt.dir/lnode_btree.cpp.i
 
 lib/CMakeFiles/adapt.dir/lnode_btree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adapt.dir/lnode_btree.cpp.s"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xpzhang/Blink-hash/index/blink-hash/lib/lnode_btree.cpp -o CMakeFiles/adapt.dir/lnode_btree.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longnguyen/Blink-hash/index/blink-hash/lib/lnode_btree.cpp -o CMakeFiles/adapt.dir/lnode_btree.cpp.s
 
 lib/CMakeFiles/adapt.dir/lnode_hash.cpp.o: lib/CMakeFiles/adapt.dir/flags.make
-lib/CMakeFiles/adapt.dir/lnode_hash.cpp.o: /home/xpzhang/Blink-hash/index/blink-hash/lib/lnode_hash.cpp
+lib/CMakeFiles/adapt.dir/lnode_hash.cpp.o: /home/longnguyen/Blink-hash/index/blink-hash/lib/lnode_hash.cpp
 lib/CMakeFiles/adapt.dir/lnode_hash.cpp.o: lib/CMakeFiles/adapt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xpzhang/Blink-hash/index/blink-hash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/CMakeFiles/adapt.dir/lnode_hash.cpp.o"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/adapt.dir/lnode_hash.cpp.o -MF CMakeFiles/adapt.dir/lnode_hash.cpp.o.d -o CMakeFiles/adapt.dir/lnode_hash.cpp.o -c /home/xpzhang/Blink-hash/index/blink-hash/lib/lnode_hash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longnguyen/Blink-hash/index/blink-hash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/CMakeFiles/adapt.dir/lnode_hash.cpp.o"
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/adapt.dir/lnode_hash.cpp.o -MF CMakeFiles/adapt.dir/lnode_hash.cpp.o.d -o CMakeFiles/adapt.dir/lnode_hash.cpp.o -c /home/longnguyen/Blink-hash/index/blink-hash/lib/lnode_hash.cpp
 
 lib/CMakeFiles/adapt.dir/lnode_hash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adapt.dir/lnode_hash.cpp.i"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xpzhang/Blink-hash/index/blink-hash/lib/lnode_hash.cpp > CMakeFiles/adapt.dir/lnode_hash.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longnguyen/Blink-hash/index/blink-hash/lib/lnode_hash.cpp > CMakeFiles/adapt.dir/lnode_hash.cpp.i
 
 lib/CMakeFiles/adapt.dir/lnode_hash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adapt.dir/lnode_hash.cpp.s"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xpzhang/Blink-hash/index/blink-hash/lib/lnode_hash.cpp -o CMakeFiles/adapt.dir/lnode_hash.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longnguyen/Blink-hash/index/blink-hash/lib/lnode_hash.cpp -o CMakeFiles/adapt.dir/lnode_hash.cpp.s
 
 lib/CMakeFiles/adapt.dir/tree.cpp.o: lib/CMakeFiles/adapt.dir/flags.make
-lib/CMakeFiles/adapt.dir/tree.cpp.o: /home/xpzhang/Blink-hash/index/blink-hash/lib/tree.cpp
+lib/CMakeFiles/adapt.dir/tree.cpp.o: /home/longnguyen/Blink-hash/index/blink-hash/lib/tree.cpp
 lib/CMakeFiles/adapt.dir/tree.cpp.o: lib/CMakeFiles/adapt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xpzhang/Blink-hash/index/blink-hash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/CMakeFiles/adapt.dir/tree.cpp.o"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/adapt.dir/tree.cpp.o -MF CMakeFiles/adapt.dir/tree.cpp.o.d -o CMakeFiles/adapt.dir/tree.cpp.o -c /home/xpzhang/Blink-hash/index/blink-hash/lib/tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/longnguyen/Blink-hash/index/blink-hash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/CMakeFiles/adapt.dir/tree.cpp.o"
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/adapt.dir/tree.cpp.o -MF CMakeFiles/adapt.dir/tree.cpp.o.d -o CMakeFiles/adapt.dir/tree.cpp.o -c /home/longnguyen/Blink-hash/index/blink-hash/lib/tree.cpp
 
 lib/CMakeFiles/adapt.dir/tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adapt.dir/tree.cpp.i"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xpzhang/Blink-hash/index/blink-hash/lib/tree.cpp > CMakeFiles/adapt.dir/tree.cpp.i
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/longnguyen/Blink-hash/index/blink-hash/lib/tree.cpp > CMakeFiles/adapt.dir/tree.cpp.i
 
 lib/CMakeFiles/adapt.dir/tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adapt.dir/tree.cpp.s"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xpzhang/Blink-hash/index/blink-hash/lib/tree.cpp -o CMakeFiles/adapt.dir/tree.cpp.s
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/longnguyen/Blink-hash/index/blink-hash/lib/tree.cpp -o CMakeFiles/adapt.dir/tree.cpp.s
 
 # Object files for target adapt
 adapt_OBJECTS = \
@@ -189,19 +189,19 @@ lib/libadapt.a: lib/CMakeFiles/adapt.dir/lnode_hash.cpp.o
 lib/libadapt.a: lib/CMakeFiles/adapt.dir/tree.cpp.o
 lib/libadapt.a: lib/CMakeFiles/adapt.dir/build.make
 lib/libadapt.a: lib/CMakeFiles/adapt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xpzhang/Blink-hash/index/blink-hash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libadapt.a"
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/adapt.dir/cmake_clean_target.cmake
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/adapt.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/longnguyen/Blink-hash/index/blink-hash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libadapt.a"
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/adapt.dir/cmake_clean_target.cmake
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/adapt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/adapt.dir/build: lib/libadapt.a
 .PHONY : lib/CMakeFiles/adapt.dir/build
 
 lib/CMakeFiles/adapt.dir/clean:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/adapt.dir/cmake_clean.cmake
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/adapt.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/adapt.dir/clean
 
 lib/CMakeFiles/adapt.dir/depend:
-	cd /home/xpzhang/Blink-hash/index/blink-hash/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xpzhang/Blink-hash/index/blink-hash /home/xpzhang/Blink-hash/index/blink-hash/lib /home/xpzhang/Blink-hash/index/blink-hash/build /home/xpzhang/Blink-hash/index/blink-hash/build/lib /home/xpzhang/Blink-hash/index/blink-hash/build/lib/CMakeFiles/adapt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/longnguyen/Blink-hash/index/blink-hash/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longnguyen/Blink-hash/index/blink-hash /home/longnguyen/Blink-hash/index/blink-hash/lib /home/longnguyen/Blink-hash/index/blink-hash/build /home/longnguyen/Blink-hash/index/blink-hash/build/lib /home/longnguyen/Blink-hash/index/blink-hash/build/lib/CMakeFiles/adapt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/adapt.dir/depend
 

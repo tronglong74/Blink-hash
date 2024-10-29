@@ -1,4 +1,4 @@
-# Install script for directory: /home/xpzhang/Blink-hash/index/hot/lib/hot/commons
+# Install script for directory: /home/longnguyen/Blink-hash/index/hot/lib/hot/commons
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

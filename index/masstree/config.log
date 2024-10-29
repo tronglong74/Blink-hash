@@ -326,7 +326,7 @@ configure:4712: result: yes
 configure:4720: checking for library containing numa_available
 configure:4749: g++ -o conftest -g -W -Wall -O3   conftest.cpp  >&5
 /usr/bin/ld: /tmp/ccSW2hXv.o: in function `main':
-/home/xpzhang/Blink-hash/index/masstree/conftest.cpp:29: undefined reference to `numa_available'
+/home/longnguyen/Blink-hash/index/masstree/conftest.cpp:29: undefined reference to `numa_available'
 collect2: error: ld returned 1 exit status
 configure:4749: $? = 1
 configure: failed program was:

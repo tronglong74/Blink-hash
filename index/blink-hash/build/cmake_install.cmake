@@ -1,4 +1,4 @@
-# Install script for directory: /home/xpzhang/Blink-hash/index/blink-hash
+# Install script for directory: /home/longnguyen/Blink-hash/index/blink-hash
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/xpzhang/Blink-hash/index/blink-hash/build/lib/cmake_install.cmake")
-  include("/home/xpzhang/Blink-hash/index/blink-hash/build/test/cmake_install.cmake")
+  include("/home/longnguyen/Blink-hash/index/blink-hash/build/lib/cmake_install.cmake")
+  include("/home/longnguyen/Blink-hash/index/blink-hash/build/test/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/xpzhang/Blink-hash/index/blink-hash/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/longnguyen/Blink-hash/index/blink-hash/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

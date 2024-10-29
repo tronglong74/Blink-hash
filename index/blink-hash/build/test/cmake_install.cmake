@@ -1,4 +1,4 @@
-# Install script for directory: /home/xpzhang/Blink-hash/index/blink-hash/test
+# Install script for directory: /home/longnguyen/Blink-hash/index/blink-hash/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

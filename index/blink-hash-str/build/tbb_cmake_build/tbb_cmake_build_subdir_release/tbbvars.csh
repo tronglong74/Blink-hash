@@ -1,6 +1,6 @@
 #!/bin/csh
-setenv TBBROOT "/home/xpzhang/Blink-hash/index/hot/third-party/tbb" #
-setenv tbb_bin "/home/xpzhang/Blink-hash/index/blink-hash-str/build/tbb_cmake_build/tbb_cmake_build_subdir_release" #
+setenv TBBROOT "/home/longnguyen/Blink-hash/index/hot/third-party/tbb" #
+setenv tbb_bin "/home/longnguyen/Blink-hash/index/blink-hash-str/build/tbb_cmake_build/tbb_cmake_build_subdir_release" #
 if (! $?CPATH) then #
     setenv CPATH "${TBBROOT}/include" #
 else #

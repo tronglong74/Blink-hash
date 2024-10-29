@@ -1,4 +1,4 @@
-# Install script for directory: /home/xpzhang/Blink-hash/index/hot/lib/hot/single-threaded
+# Install script for directory: /home/longnguyen/Blink-hash/index/hot/lib/hot/single-threaded
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

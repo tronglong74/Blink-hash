@@ -1,7 +1,7 @@
 src/CMakeFiles/hot-rowex-str.dir/wrapper.cpp.o: \
- /home/xpzhang/Blink-hash/index/hot/src/wrapper.cpp \
+ /home/longnguyen/Blink-hash/index/hot/src/wrapper.cpp \
  /usr/include/stdc-predef.h \
- /home/xpzhang/Blink-hash/index/hot/src/wrapper.h /usr/include/unistd.h \
+ /home/longnguyen/Blink-hash/index/hot/src/wrapper.h /usr/include/unistd.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
@@ -174,10 +174,10 @@ src/CMakeFiles/hot-rowex-str.dir/wrapper.cpp.o: \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/xpzhang/Blink-hash/index/hot/src/key.h /usr/include/c++/11/cassert \
+ /home/longnguyen/Blink-hash/index/hot/src/key.h /usr/include/c++/11/cassert \
  /usr/include/assert.h \
- /home/xpzhang/Blink-hash/index/hot/src/../../../include/indexkey.h \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowex.hpp \
+ /home/longnguyen/Blink-hash/index/hot/src/../../../include/indexkey.h \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowex.hpp \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
@@ -197,7 +197,7 @@ src/CMakeFiles/hot-rowex-str.dir/wrapper.cpp.o: \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/Algorithms.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/Algorithms.hpp \
  /usr/include/c++/11/bitset \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/immintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/x86gprintrin.h \
@@ -284,40 +284,40 @@ src/CMakeFiles/hot-rowex-str.dir/wrapper.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/keylockerintrin.h \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/BiNode.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/DiscriminativeBit.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/idx/content-helpers/include/idx/contenthelpers/OptionalValue.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/BiNodeInterface.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/InsertInformation.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/TwoEntriesNode.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/SingleMaskPartialKeyMapping.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/PartialKeyMappingBase.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/SingleMaskPartialKeyMappingInterface.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/MultiMaskPartialKeyMapping.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/MultiMaskPartialKeyMappingInterface.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/SIMDHelper.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexChildPointer.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/NodeType.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/NodeParametersMapping.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexChildPointerInterface.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/BiNode.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/DiscriminativeBit.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/idx/content-helpers/include/idx/contenthelpers/OptionalValue.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/BiNodeInterface.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/InsertInformation.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/TwoEntriesNode.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/SingleMaskPartialKeyMapping.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/PartialKeyMappingBase.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/SingleMaskPartialKeyMappingInterface.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/MultiMaskPartialKeyMapping.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/MultiMaskPartialKeyMappingInterface.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/SIMDHelper.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexChildPointer.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/NodeType.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/NodeParametersMapping.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexChildPointerInterface.hpp \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexNodeInterface.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/PartialKeyConversionInformation.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/NodeAllocationInformation.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/SparsePartialKeys.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/SearchResultForInsert.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexNodeBaseInterface.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexNodeInterface.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/PartialKeyConversionInformation.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/NodeAllocationInformation.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/SparsePartialKeys.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/SearchResultForInsert.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexNodeBaseInterface.hpp \
  /usr/include/c++/11/mutex /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/limits \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/SpinLock.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexFirstInsertLevel.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexInsertStackEntry.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexChildPointer.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexInsertStack.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/SpinLock.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexFirstInsertLevel.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexInsertStackEntry.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexChildPointer.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexInsertStack.hpp \
  /usr/include/execinfo.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
@@ -340,23 +340,23 @@ src/CMakeFiles/hot-rowex-str.dir/wrapper.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
- /home/xpzhang/Blink-hash/index/hot/lib/idx/content-helpers/include/idx/contenthelpers/TidConverters.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/idx/content-helpers/include/idx/contenthelpers/KeyUtilities.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexInterface.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/idx/content-helpers/include/idx/contenthelpers/KeyComparator.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/idx/content-helpers/include/idx/contenthelpers/CStringComparator.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/EpochBasedMemoryReclamationStrategy.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/idx/content-helpers/include/idx/contenthelpers/TidConverters.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/idx/content-helpers/include/idx/contenthelpers/KeyUtilities.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexInterface.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/idx/content-helpers/include/idx/contenthelpers/KeyComparator.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/idx/content-helpers/include/idx/contenthelpers/CStringComparator.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/EpochBasedMemoryReclamationStrategy.hpp \
  /usr/include/c++/11/algorithm \
  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
  /usr/include/c++/11/bits/unique_ptr.h \
  /usr/include/c++/11/bits/this_thread_sleep.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/enumerable_thread_specific.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/atomic.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/enumerable_thread_specific.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/atomic.h \
  /usr/include/c++/11/cstddef \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/tbb_machine.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/tbb_stddef.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/tbb_config.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/tbb_machine.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/tbb_stddef.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/tbb_config.h \
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bits/shared_ptr.h \
@@ -366,10 +366,10 @@ src/CMakeFiles/hot-rowex-str.dir/wrapper.cpp.o: \
  /usr/include/c++/11/bits/shared_ptr_atomic.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/machine/linux_intel64.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/machine/gcc_ia32_common.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/machine/gcc_itsx.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/machine/linux_common.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/machine/linux_intel64.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/machine/gcc_ia32_common.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/machine/gcc_itsx.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/machine/linux_common.h \
  /usr/include/x86_64-linux-gnu/sys/syscall.h \
  /usr/include/x86_64-linux-gnu/asm/unistd.h \
  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
@@ -382,29 +382,29 @@ src/CMakeFiles/hot-rowex-str.dir/wrapper.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/concurrent_vector.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/tbb_exception.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/tbb_allocator.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/cache_aligned_allocator.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/blocked_range.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/tbb_profiling.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/internal/_tbb_strings.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/concurrent_vector.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/tbb_exception.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/tbb_allocator.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/cache_aligned_allocator.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/blocked_range.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/tbb_profiling.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/internal/_tbb_strings.h \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/tbb_thread.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/internal/_tbb_hash_compare_impl.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/tick_count.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/aligned_space.h \
- /home/xpzhang/Blink-hash/index/hot/third-party/tbb/include/tbb/internal/_template_helpers.h \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/ThreadSpecificEpochBasedReclamationInformation.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexIterator.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/idx/content-helpers/include/idx/contenthelpers/ContentEquals.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexNodeBase.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexIteratorBufferState.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexIteratorEndToken.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexIteratorStackState.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexIteratorBufferStates.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexIteratorStackEntry.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/MemoryGuard.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexNode.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/NodeAllocationInformations.hpp \
- /home/xpzhang/Blink-hash/index/hot/lib/idx/content-helpers/include/idx/contenthelpers/IdentityKeyExtractor.hpp
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/tbb_thread.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/internal/_tbb_hash_compare_impl.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/tick_count.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/aligned_space.h \
+ /home/longnguyen/Blink-hash/index/hot/third-party/tbb/include/tbb/internal/_template_helpers.h \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/ThreadSpecificEpochBasedReclamationInformation.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexIterator.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/idx/content-helpers/include/idx/contenthelpers/ContentEquals.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexNodeBase.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexIteratorBufferState.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexIteratorEndToken.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexIteratorStackState.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexIteratorBufferStates.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexIteratorStackEntry.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/MemoryGuard.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/rowex/include/hot/rowex/HOTRowexNode.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/hot/commons/include/hot/commons/NodeAllocationInformations.hpp \
+ /home/longnguyen/Blink-hash/index/hot/lib/idx/content-helpers/include/idx/contenthelpers/IdentityKeyExtractor.hpp

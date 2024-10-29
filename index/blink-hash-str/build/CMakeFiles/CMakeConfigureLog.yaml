@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles/3.26.0/CompilerIdC/a.out
+        /home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles/3.26.0/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -50,7 +50,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles/3.26.0/CompilerIdCXX/a.out
+        /home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles/3.26.0/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-jE2XMM"
-      binary: "/home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-jE2XMM"
+      source: "/home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-jE2XMM"
+      binary: "/home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-jE2XMM"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,10 +71,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-jE2XMM
+        Change Dir: /home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-jE2XMM
         
         Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_072e1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_072e1.dir/build.make CMakeFiles/cmTC_072e1.dir/build
-        gmake[1]: Entering directory '/home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-jE2XMM'
+        gmake[1]: Entering directory '/home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-jE2XMM'
         Building C object CMakeFiles/cmTC_072e1.dir/CMakeCCompilerABI.c.o
         /usr/bin/cc   -v -o CMakeFiles/cmTC_072e1.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c
         Using built-in specs.
@@ -131,7 +131,7 @@ events:
         COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_072e1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_072e1.'
          /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cchGLYtw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_072e1 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_072e1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_072e1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_072e1.'
-        gmake[1]: Leaving directory '/home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-jE2XMM'
+        gmake[1]: Leaving directory '/home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-jE2XMM'
         
       exitCode: 0
   -
@@ -165,10 +165,10 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-jE2XMM]
+        ignore line: [Change Dir: /home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-jE2XMM]
         ignore line: []
         ignore line: [Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_072e1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_072e1.dir/build.make CMakeFiles/cmTC_072e1.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-jE2XMM']
+        ignore line: [gmake[1]: Entering directory '/home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-jE2XMM']
         ignore line: [Building C object CMakeFiles/cmTC_072e1.dir/CMakeCCompilerABI.c.o]
         ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_072e1.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
@@ -299,8 +299,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-amsWTF"
-      binary: "/home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-amsWTF"
+      source: "/home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-amsWTF"
+      binary: "/home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-amsWTF"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -309,10 +309,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-amsWTF
+        Change Dir: /home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-amsWTF
         
         Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4df69/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4df69.dir/build.make CMakeFiles/cmTC_4df69.dir/build
-        gmake[1]: Entering directory '/home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-amsWTF'
+        gmake[1]: Entering directory '/home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-amsWTF'
         Building CXX object CMakeFiles/cmTC_4df69.dir/CMakeCXXCompilerABI.cpp.o
         /usr/bin/c++   -v -o CMakeFiles/cmTC_4df69.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
@@ -373,7 +373,7 @@ events:
         COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4df69' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4df69.'
          /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5bmDM0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4df69 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_4df69.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4df69' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4df69.'
-        gmake[1]: Leaving directory '/home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-amsWTF'
+        gmake[1]: Leaving directory '/home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-amsWTF'
         
       exitCode: 0
   -
@@ -413,10 +413,10 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-amsWTF]
+        ignore line: [Change Dir: /home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-amsWTF]
         ignore line: []
         ignore line: [Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4df69/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4df69.dir/build.make CMakeFiles/cmTC_4df69.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-amsWTF']
+        ignore line: [gmake[1]: Entering directory '/home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles/CMakeScratch/TryCompile-amsWTF']
         ignore line: [Building CXX object CMakeFiles/cmTC_4df69.dir/CMakeCXXCompilerABI.cpp.o]
         ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_4df69.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]

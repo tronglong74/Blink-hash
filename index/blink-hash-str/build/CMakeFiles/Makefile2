@@ -54,10 +54,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xpzhang/Blink-hash/index/blink-hash-str
+CMAKE_SOURCE_DIR = /home/longnguyen/Blink-hash/index/blink-hash-str
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xpzhang/Blink-hash/index/blink-hash-str/build
+CMAKE_BINARY_DIR = /home/longnguyen/Blink-hash/index/blink-hash-str/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -96,14 +96,14 @@ lib/clean: lib/CMakeFiles/blinkhash.dir/clean
 lib/CMakeFiles/blinkhash.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/blinkhash.dir/build.make lib/CMakeFiles/blinkhash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target blinkhash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target blinkhash"
 .PHONY : lib/CMakeFiles/blinkhash.dir/all
 
 # Build rule for subdir invocation for target.
 lib/CMakeFiles/blinkhash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/blinkhash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xpzhang/Blink-hash/index/blink-hash-str/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/longnguyen/Blink-hash/index/blink-hash-str/build/CMakeFiles 0
 .PHONY : lib/CMakeFiles/blinkhash.dir/rule
 
 # Convenience name for target.

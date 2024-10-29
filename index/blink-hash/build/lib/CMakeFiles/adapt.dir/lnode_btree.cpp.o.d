@@ -1,8 +1,8 @@
 lib/CMakeFiles/adapt.dir/lnode_btree.cpp.o: \
- /home/xpzhang/Blink-hash/index/blink-hash/lib/lnode_btree.cpp \
+ /home/longnguyen/Blink-hash/index/blink-hash/lib/lnode_btree.cpp \
  /usr/include/stdc-predef.h \
- /home/xpzhang/Blink-hash/index/blink-hash/lib/lnode.h \
- /home/xpzhang/Blink-hash/index/blink-hash/lib/node.h \
+ /home/longnguyen/Blink-hash/index/blink-hash/lib/lnode.h \
+ /home/longnguyen/Blink-hash/index/blink-hash/lib/node.h \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -229,7 +229,7 @@ lib/CMakeFiles/adapt.dir/lnode_btree.cpp.o: \
  /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/ctime \
  /usr/include/c++/11/bits/parse_numbers.h \
- /home/xpzhang/Blink-hash/index/blink-hash/lib/common.h \
+ /home/longnguyen/Blink-hash/index/blink-hash/lib/common.h \
  /usr/include/c++/11/cassert /usr/include/assert.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/x86intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/x86gprintrin.h \
@@ -321,5 +321,5 @@ lib/CMakeFiles/adapt.dir/lnode_btree.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/fma4intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/ammintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/xopintrin.h \
- /home/xpzhang/Blink-hash/index/blink-hash/lib/bucket.h \
- /home/xpzhang/Blink-hash/index/blink-hash/lib/entry.h
+ /home/longnguyen/Blink-hash/index/blink-hash/lib/bucket.h \
+ /home/longnguyen/Blink-hash/index/blink-hash/lib/entry.h

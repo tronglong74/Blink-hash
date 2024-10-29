@@ -1,4 +1,4 @@
-# Install script for directory: /home/xpzhang/Blink-hash/index/blink-hash-str/lib
+# Install script for directory: /home/longnguyen/Blink-hash/index/blink-hash-str/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,13 +44,13 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xpzhang/Blink-hash/index/blink-hash-str/libblinkhash.a")
+   "/home/longnguyen/Blink-hash/index/blink-hash-str/libblinkhash.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/xpzhang/Blink-hash/index/blink-hash-str" TYPE STATIC_LIBRARY FILES "/home/xpzhang/Blink-hash/index/blink-hash-str/build/lib/libblinkhash.a")
+  file(INSTALL DESTINATION "/home/longnguyen/Blink-hash/index/blink-hash-str" TYPE STATIC_LIBRARY FILES "/home/longnguyen/Blink-hash/index/blink-hash-str/build/lib/libblinkhash.a")
 endif()
 

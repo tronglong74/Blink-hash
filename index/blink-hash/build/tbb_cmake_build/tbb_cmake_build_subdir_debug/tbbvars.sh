@@ -1,6 +1,6 @@
 #!/bin/bash
-export TBBROOT="/home/xpzhang/Blink-hash/index/hot/third-party/tbb" #
-tbb_bin="/home/xpzhang/Blink-hash/index/blink-hash/build/tbb_cmake_build/tbb_cmake_build_subdir_debug" #
+export TBBROOT="/home/longnguyen/Blink-hash/index/hot/third-party/tbb" #
+tbb_bin="/home/longnguyen/Blink-hash/index/blink-hash/build/tbb_cmake_build/tbb_cmake_build_subdir_debug" #
 if [ -z "$CPATH" ]; then #
     export CPATH="${TBBROOT}/include" #
 else #
