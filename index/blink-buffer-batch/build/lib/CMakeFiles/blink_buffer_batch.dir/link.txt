@@ -1,0 +1,2 @@
+/usr/bin/ar qc libblink_buffer_batch.a  CMakeFiles/blink_buffer_batch.dir/hash.cpp.o
+/usr/bin/ranlib libblink_buffer_batch.a

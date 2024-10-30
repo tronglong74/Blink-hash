@@ -1,0 +1,82 @@
+---------------- running with threads 1 ----------------
+---------------- running with threads 4 ----------------
+---------------- running with threads 8 ----------------
+---------------- running with threads 16 ----------------
+---------------- running with threads 32 ----------------
+---------------- running with threads 64 ----------------
+---------------- running with threads 1 ----------------
+---------------- running with threads 4 ----------------
+---------------- running with threads 8 ----------------
+---------------- running with threads 16 ----------------
+---------------- running with threads 32 ----------------
+---------------- running with threads 64 ----------------
+---------------- running with threads 1 ----------------
+---------------- running with threads 4 ----------------
+---------------- running with threads 8 ----------------
+---------------- running with threads 16 ----------------
+---------------- running with threads 32 ----------------
+---------------- running with threads 64 ----------------
+---------------- running with threads 1 ----------------
+---------------- running with threads 4 ----------------
+---------------- running with threads 8 ----------------
+---------------- running with threads 16 ----------------
+---------------- running with threads 32 ----------------
+---------------- running with threads 64 ----------------
+---------------- running with threads 1 ----------------
+---------------- running with threads 4 ----------------
+---------------- running with threads 8 ----------------
+---------------- running with threads 16 ----------------
+---------------- running with threads 32 ----------------
+---------------- running with threads 64 ----------------
+---------------- running with threads 1 ----------------
+---------------- running with threads 4 ----------------
+---------------- running with threads 8 ----------------
+---------------- running with threads 16 ----------------
+---------------- running with threads 32 ----------------
+---------------- running with threads 64 ----------------
+---------------- running with threads 1 ----------------
+Processed 100000000 / 100000000 (100 %)
+Load 3.28843
+Total number of leaf nodes: 	100000000
+Total depths of leaf nodes: 	699972079
+Max depths: 	7
+Average depths: 	6.99972
+Total number of leaf nodes: 	100000000
+Total depths of leaf nodes: 	699972079
+Max depths: 	7
+Average depths: 	6.99972
+---------------- running with threads 4 ----------------
+---------------- running with threads 1 ----------------
+Processed 100000000 / 100000000 (100 %)
+Load 2.25235
+Total number of leaf nodes: 	100000000
+Total depths of leaf nodes: 	699948500
+Max depths: 	7
+Average depths: 	6.99948
+Total number of leaf nodes: 	100000000
+Total depths of leaf nodes: 	699948500
+Max depths: 	7
+Average depths: 	6.99948
+---------------- running with threads 4 ----------------
+Processed 99242880 / 100000000 (99.2429 %)
+Load 1.99813
+Total number of leaf nodes: 	99242883
+Total depths of leaf nodes: 	694686344
+Max depths: 	7
+Average depths: 	6.99986
+Total number of leaf nodes: 	99242883
+Total depths of leaf nodes: 	694686344
+Max depths: 	7
+Average depths: 	6.99986
+---------------- running with threads 8 ----------------
+Processed 99687825 / 100000000 (99.6878 %)
+Load 1.55613
+Total number of leaf nodes: 	99687832
+Total depths of leaf nodes: 	697809027
+Max depths: 	7
+Average depths: 	6.99994
+Total number of leaf nodes: 	99687832
+Total depths of leaf nodes: 	697809027
+Max depths: 	7
+Average depths: 	6.99994
+---------------- running with threads 16 ----------------

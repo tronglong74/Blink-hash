@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/longnguyen/Blink-hash/index/blink-buffer-batch/lib/hash.cpp
+hash.h
+/home/longnguyen/Blink-hash/index/blink-buffer-batch/lib/hash.h
+
+/home/longnguyen/Blink-hash/index/blink-buffer-batch/lib/hash.h
+functional
+-
+stddef.h
+-
+

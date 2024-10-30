@@ -6,8 +6,9 @@
 #include <cstring>
 #include <cctype>
 #include <atomic>
-
+#ifndef STRING_KEY
 #define STRING_KEY
+#endif
 #include "include/index.h"
 
 // Used for skiplist

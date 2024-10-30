@@ -1,0 +1,2 @@
+/usr/bin/ar qc libblink_buffer.a  CMakeFiles/blink_buffer.dir/hash.cpp.o
+/usr/bin/ranlib libblink_buffer.a

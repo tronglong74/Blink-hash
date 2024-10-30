@@ -33,8 +33,8 @@ class Index
 	virtual uint64_t scan(KeyType key, int range, threadinfo *ti) = 0;
 
 	// Used for bwtree only
-	virtual uint64_t find_bwtree_fast(KeyType key, std::vector<uint64_t> *v) {};
-	virtual bool insert_bwtree_fast(KeyType key, uint64_t value) {};
+	virtual uint64_t find_bwtree_fast(KeyType key, std::vector<uint64_t> *v) {  return 0UL; };
+	virtual bool insert_bwtree_fast(KeyType key, uint64_t value) { return true; };
 
 	virtual void getMemory() = 0;
 	virtual void find_depth() = 0;

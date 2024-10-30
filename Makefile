@@ -25,7 +25,7 @@ BENCH_LIB_HEADER = include/microbench.h include/index.h include/util.h
 THREAD_NUM?=1
 TYPE?=bwtree
 
-SNAPPY = /usr/lib/libsnappy.so.1.3.0
+SNAPPY = /usr/lib/libsnappy.so
 
 all: micro workload timeseries workload_string
 

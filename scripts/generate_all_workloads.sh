@@ -31,17 +31,17 @@ done
 
 # email keys
 cd $output_dir
-wget https://archive.org/download/300MillionEmailDatabase/300%20million%20email%20database.rar
-unrar x '300 million email database.rar'
-cd 300\ MILLION\ EMAIL\ DATABASE/worldwide
-unrar x Country.rar
-unrar x 'Mail Servers.rar'
-unrar x Unclassified.rar
-unrar x China.rar
-unrar x Commercial.rar
+#wget https://archive.org/download/300MillionEmailDatabase/300%20million%20email%20database.rar
+#unrar x '300 million email database.rar'
+#cd 300\ MILLION\ EMAIL\ DATABASE/worldwide
+#unrar x Country.rar
+#unrar x 'Mail Servers.rar'
+#unrar x Unclassified.rar
+#unrar x China.rar
+#unrar x Commercial.rar
 EMAIL_DIR=$(pwd)
-rm *.rar
-mv $output_dir/300\ MILLION\ EMAIL\ DATABASE $output_dir/email_database
+#rm *.rar
+#mv $output_dir/300\ MILLION\ EMAIL\ DATABASE $output_dir/email_database
 EMAIL_DIR=$output_dir/email_database/worldwide
 cd $EMAIL_DIR
 echo $(pwd)

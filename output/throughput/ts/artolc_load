@@ -1,0 +1,68 @@
+---------------- running with threads 1 ----------------
+---------------- running with threads 4 ----------------
+---------------- running with threads 8 ----------------
+---------------- running with threads 16 ----------------
+---------------- running with threads 32 ----------------
+---------------- running with threads 64 ----------------
+---------------- running with threads 1 ----------------
+---------------- running with threads 4 ----------------
+---------------- running with threads 8 ----------------
+---------------- running with threads 16 ----------------
+---------------- running with threads 32 ----------------
+---------------- running with threads 64 ----------------
+---------------- running with threads 1 ----------------
+---------------- running with threads 4 ----------------
+---------------- running with threads 8 ----------------
+---------------- running with threads 16 ----------------
+---------------- running with threads 32 ----------------
+---------------- running with threads 64 ----------------
+---------------- running with threads 1 ----------------
+---------------- running with threads 4 ----------------
+---------------- running with threads 8 ----------------
+---------------- running with threads 16 ----------------
+---------------- running with threads 32 ----------------
+---------------- running with threads 64 ----------------
+---------------- running with threads 1 ----------------
+---------------- running with threads 4 ----------------
+---------------- running with threads 8 ----------------
+---------------- running with threads 16 ----------------
+---------------- running with threads 32 ----------------
+---------------- running with threads 64 ----------------
+---------------- running with threads 1 ----------------
+---------------- running with threads 4 ----------------
+---------------- running with threads 8 ----------------
+---------------- running with threads 16 ----------------
+---------------- running with threads 32 ----------------
+---------------- running with threads 64 ----------------
+---------------- running with threads 1 ----------------
+Processed 100000000 / 100000000 (100 %)
+Load 10.4689
+Total number of nodes: 	100000000
+Total depth: 	690222496
+Max depth: 	7
+Average depth: 	6.90222
+Total number of nodes: 	100000000
+Total depth: 	690222496
+Max depth: 	7
+Average depth: 	6.90222
+---------------- running with threads 4 ----------------
+---------------- running with threads 8 ----------------
+---------------- running with threads 16 ----------------
+---------------- running with threads 32 ----------------
+---------------- running with threads 64 ----------------
+---------------- running with threads 1 ----------------
+Processed 100000000 / 100000000 (100 %)
+Load 1.45658
+Total number of nodes: 	100000000
+Total depth: 	673337622
+Max depth: 	7
+Average depth: 	6.73338
+Total number of nodes: 	100000000
+Total depth: 	673337622
+Max depth: 	7
+Average depth: 	6.73338
+---------------- running with threads 4 ----------------
+---------------- running with threads 8 ----------------
+---------------- running with threads 16 ----------------
+---------------- running with threads 32 ----------------
+---------------- running with threads 64 ----------------

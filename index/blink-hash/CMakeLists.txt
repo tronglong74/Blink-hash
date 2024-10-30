@@ -16,7 +16,7 @@ if(USE_AVX2)
     add_definitions(-DAVX_128)
 endif()
 
-set(TC_MALLOC_LIBRARY tcmalloc tcmalloc_minimal libtcmalloc_minimal.so.4.3.0)
+set(TC_MALLOC_LIBRARY tcmalloc tcmalloc_minimal libtcmalloc_minimal.so.4.5.3)
 find_library(TC_MALLOC_LIBRARY
         NAMES ${TC_MALLOC_NAMES}
         PATHS /usr/lib/x86_64-linux-gnu /usr/lib64 /lib /usr/lib /usr/local/lib /opt/local/lib

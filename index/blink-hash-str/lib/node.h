@@ -22,8 +22,9 @@ namespace BLINK_HASH{
 #define BITOP_WORD(nr) ((nr) / BITS_PER_LONG)
 
 //#define PAGE_SIZE (1024)
+#ifndef PAGE_SIZE
 #define PAGE_SIZE (512)
-
+#endif
 #define CACHELINE_SIZE 64
 #define FILL_FACTOR (0.8)
 
