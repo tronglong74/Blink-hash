@@ -11,6 +11,8 @@ apt install -y gcc g++ gdb
 ## make - for compilation
 apt install -y make
 
+apt install -y cmake
+
 ## openssl - for cmake build
 apt install -y openssl libssl-dev
 
@@ -38,6 +40,9 @@ apt install -y unrar
 
 ## perf - for performance analysis
 apt install -y linux-tools-common linux-tools-generic 
+apt install -y linux-generic
+apt install -y build-essential
+apt install -y python
 #apt install -y linux-tools-$(uname -r)
 #sudo apt-get install google-perftools
 
