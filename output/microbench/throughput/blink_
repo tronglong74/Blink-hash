@@ -1,18 +1,144 @@
 ------------------- running with 1 threads -------------------------
+Finished loading workload file (mem = 366780)
+Processed 10000000 / 10000000 (100 %)
+Workload Load 4.17578
+[Memory Footprint]
+Metadata: 	15836424
+Structural_data_occupied: 	7822760
+Structural_data_unoccupied: 	3820432
+Key_data_occupied: 	160000000
+Key_data_unoccupied: 	68957120
+height of blink-tree: 	5
+Finished running benchmark (mem = 617076)
 ------------------- running with 4 threads -------------------------
+Finished loading workload file (mem = 363852)
+Processed 9916388 / 10000000 (99.1639 %)
+Workload Load 15.2162
+[Memory Footprint]
+Metadata: 	15699248
+Structural_data_occupied: 	7755120
+Structural_data_unoccupied: 	3772416
+Key_data_occupied: 	158662256
+Key_data_unoccupied: 	68322544
+height of blink-tree: 	5
+Finished running benchmark (mem = 614588)
 ------------------- running with 8 threads -------------------------
+Finished loading workload file (mem = 364128)
+Processed 9837896 / 10000000 (98.379 %)
+Workload Load 28.5076
+[Memory Footprint]
+Metadata: 	15561744
+Structural_data_occupied: 	7687136
+Structural_data_unoccupied: 	3746704
+Key_data_occupied: 	157406448
+Key_data_unoccupied: 	67584912
+height of blink-tree: 	5
+Finished running benchmark (mem = 612552)
 ------------------- running with 16 threads -------------------------
-------------------- running with 32 threads -------------------------
-------------------- running with 64 threads -------------------------
+Finished loading workload file (mem = 362632)
+Processed 9209426 / 10000000 (92.0943 %)
+Workload Load 42.1671
+[Memory Footprint]
+Metadata: 	14572000
+Structural_data_occupied: 	7198656
+Structural_data_unoccupied: 	3455360
+Key_data_occupied: 	147351056
+Key_data_unoccupied: 	63369424
+height of blink-tree: 	5
+Finished running benchmark (mem = 595960)
 ------------------- running with 1 threads -------------------------
+Finished loading workload file (mem = 366776)
+Processed 10000000 / 10000000 (100 %)
+Workload Load 4.10199
+[Memory Footprint]
+Metadata: 	15836424
+Structural_data_occupied: 	7822760
+Structural_data_unoccupied: 	3820432
+Key_data_occupied: 	160000000
+Key_data_unoccupied: 	68957120
+height of blink-tree: 	5
+Finished running benchmark (mem = 617080)
 ------------------- running with 4 threads -------------------------
+Finished loading workload file (mem = 364268)
+Processed 9848924 / 10000000 (98.4892 %)
+Workload Load 15.3856
+[Memory Footprint]
+Metadata: 	15588960
+Structural_data_occupied: 	7700656
+Structural_data_unoccupied: 	3743920
+Key_data_occupied: 	157582832
+Key_data_unoccupied: 	67808848
+height of blink-tree: 	5
+Finished running benchmark (mem = 610908)
 ------------------- running with 8 threads -------------------------
+Finished loading workload file (mem = 363920)
+Processed 9574849 / 10000000 (95.7485 %)
+Workload Load 28.3891
+[Memory Footprint]
+Metadata: 	15143544
+Structural_data_occupied: 	7480504
+Structural_data_unoccupied: 	3652240
+Key_data_occupied: 	153197696
+Key_data_unoccupied: 	65742784
+height of blink-tree: 	5
+Finished running benchmark (mem = 603700)
 ------------------- running with 16 threads -------------------------
-------------------- running with 32 threads -------------------------
-------------------- running with 64 threads -------------------------
+Finished loading workload file (mem = 362992)
+Processed 8732232 / 10000000 (87.3223 %)
+Workload Load 49.0275
+[Memory Footprint]
+Metadata: 	13816976
+Structural_data_occupied: 	6825376
+Structural_data_unoccupied: 	3312336
+Key_data_occupied: 	139715952
+Key_data_unoccupied: 	60060048
+height of blink-tree: 	5
+Finished running benchmark (mem = 584204)
 ------------------- running with 1 threads -------------------------
+Finished loading workload file (mem = 363576)
+Processed 10000000 / 10000000 (100 %)
+Workload Load 3.83561
+[Memory Footprint]
+Metadata: 	15836424
+Structural_data_occupied: 	7822760
+Structural_data_unoccupied: 	3820432
+Key_data_occupied: 	160000000
+Key_data_unoccupied: 	68957120
+height of blink-tree: 	5
+Finished running benchmark (mem = 616372)
 ------------------- running with 4 threads -------------------------
+Finished loading workload file (mem = 363508)
+Processed 9791856 / 10000000 (97.9186 %)
+Workload Load 15.1559
+[Memory Footprint]
+Metadata: 	15495104
+Structural_data_occupied: 	7654368
+Structural_data_unoccupied: 	3712128
+Key_data_occupied: 	156669744
+Key_data_unoccupied: 	67371696
+height of blink-tree: 	5
+Finished running benchmark (mem = 611016)
 ------------------- running with 8 threads -------------------------
+Finished loading workload file (mem = 366880)
+Processed 9694676 / 10000000 (96.9468 %)
+Workload Load 28.5495
+[Memory Footprint]
+Metadata: 	15339584
+Structural_data_occupied: 	7577056
+Structural_data_unoccupied: 	3734784
+Key_data_occupied: 	155114928
+Key_data_unoccupied: 	66634032
+height of blink-tree: 	5
+Finished running benchmark (mem = 609532)
 ------------------- running with 16 threads -------------------------
-------------------- running with 32 threads -------------------------
-------------------- running with 64 threads -------------------------
+Finished loading workload file (mem = 363848)
+Processed 8635108 / 10000000 (86.3511 %)
+Workload Load 45.5826
+[Memory Footprint]
+Metadata: 	13664064
+Structural_data_occupied: 	6750144
+Structural_data_unoccupied: 	3238240
+Key_data_occupied: 	138161968
+Key_data_unoccupied: 	59430512
+height of blink-tree: 	5
+Finished running benchmark (mem = 582800)

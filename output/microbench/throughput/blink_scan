@@ -1,18 +1,36 @@
 ------------------- running with 1 threads -------------------------
+Finished loading workload file (mem = 363960)
+Building index with 32 threads
 ------------------- running with 4 threads -------------------------
+Finished loading workload file (mem = 368916)
+Building index with 32 threads
 ------------------- running with 8 threads -------------------------
+Finished loading workload file (mem = 363348)
+Building index with 32 threads
 ------------------- running with 16 threads -------------------------
-------------------- running with 32 threads -------------------------
-------------------- running with 64 threads -------------------------
+Finished loading workload file (mem = 365820)
+Building index with 32 threads
 ------------------- running with 1 threads -------------------------
+Finished loading workload file (mem = 366908)
+Building index with 32 threads
 ------------------- running with 4 threads -------------------------
+Finished loading workload file (mem = 365512)
+Building index with 32 threads
 ------------------- running with 8 threads -------------------------
+Finished loading workload file (mem = 363460)
+Building index with 32 threads
 ------------------- running with 16 threads -------------------------
-------------------- running with 32 threads -------------------------
-------------------- running with 64 threads -------------------------
+Finished loading workload file (mem = 366892)
+Building index with 32 threads
 ------------------- running with 1 threads -------------------------
+Finished loading workload file (mem = 362612)
+Building index with 32 threads
 ------------------- running with 4 threads -------------------------
+Finished loading workload file (mem = 365832)
+Building index with 32 threads
 ------------------- running with 8 threads -------------------------
+Finished loading workload file (mem = 363804)
+Building index with 32 threads
 ------------------- running with 16 threads -------------------------
-------------------- running with 32 threads -------------------------
-------------------- running with 64 threads -------------------------
+Finished loading workload file (mem = 365264)
+Building index with 32 threads

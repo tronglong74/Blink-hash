@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rdtsc.dir/rdtsc.cpp.o"
-  "CMakeFiles/rdtsc.dir/rdtsc.cpp.o.d"
   "rdtsc"
   "rdtsc.pdb"
 )

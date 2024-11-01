@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hot-rowex-str.dir/wrapper.cpp.o"
-  "CMakeFiles/hot-rowex-str.dir/wrapper.cpp.o.d"
   "libhot-rowex-str.a"
   "libhot-rowex-str.pdb"
 )

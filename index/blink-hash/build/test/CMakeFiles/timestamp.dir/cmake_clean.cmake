@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/timestamp.dir/timestamp.cpp.o"
-  "CMakeFiles/timestamp.dir/timestamp.cpp.o.d"
   "timestamp"
   "timestamp.pdb"
 )

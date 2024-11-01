@@ -1,18 +1,201 @@
 ------------------- running with 1 threads -------------------------
-------------------- running with 4 threads -------------------------
-------------------- running with 8 threads -------------------------
-------------------- running with 16 threads -------------------------
-------------------- running with 32 threads -------------------------
-------------------- running with 64 threads -------------------------
 ------------------- running with 1 threads -------------------------
+Finished loading workload file (mem = 362776)
+Processed 10000000 / 10000000 (100 %)
+Workload Load 1.78663
+[Memory Footprint] - before delta chain consolidation
+Metadata: 	63004968
+Structural_data_occupied: 	16589344
+Structural_data_unoccupied: 	7569896
+Key_data_occupied: 	235199264
+Key_data_unoccupied: 	0
+
+
 ------------------- running with 4 threads -------------------------
+Finished loading workload file (mem = 363692)
+Processed 9823065 / 10000000 (98.2306 %)
+Workload Load 6.97462
+[Memory Footprint] - before delta chain consolidation
+Metadata: 	63940120
+Structural_data_occupied: 	16809872
+Structural_data_unoccupied: 	7584832
+Key_data_occupied: 	238580624
+Key_data_unoccupied: 	0
+
+
 ------------------- running with 8 threads -------------------------
+Finished loading workload file (mem = 366004)
+Processed 9817739 / 10000000 (98.1774 %)
+Workload Load 12.0867
+[Memory Footprint] - before delta chain consolidation
+Metadata: 	42034964
+Structural_data_occupied: 	11326352
+Structural_data_unoccupied: 	7584232
+Key_data_occupied: 	157083936
+Key_data_unoccupied: 	0
+
+
+[Memory Footprint] - after delta chain consolidation
+Metadata: 	6452384
+Structural_data_occupied: 	2413112
+Structural_data_unoccupied: 	7584232
+Key_data_occupied: 	157083936
+Key_data_unoccupied: 	0
+Depth: 4 , depth with deta records: 4
+Finished running benchmark (mem = 1114924)
 ------------------- running with 16 threads -------------------------
-------------------- running with 32 threads -------------------------
-------------------- running with 64 threads -------------------------
+Finished loading workload file (mem = 364876)
+Processed 8992513 / 10000000 (89.9251 %)
+Workload Load 17.9459
+[Memory Footprint] - before delta chain consolidation
+Metadata: 	38716848
+Structural_data_occupied: 	10428560
+Structural_data_unoccupied: 	7652528
+Key_data_occupied: 	143881600
+Key_data_unoccupied: 	0
+
+
+[Memory Footprint] - after delta chain consolidation
+Metadata: 	5905448
+Structural_data_occupied: 	2208224
+Structural_data_unoccupied: 	7652528
+Key_data_occupied: 	143880448
+Key_data_unoccupied: 	0
+Depth: 4 , depth with deta records: 4
+Finished running benchmark (mem = 1051208)
 ------------------- running with 1 threads -------------------------
+Finished loading workload file (mem = 366784)
+Processed 10000000 / 10000000 (100 %)
+Workload Load 1.87923
+[Memory Footprint] - before delta chain consolidation
+Metadata: 	63004968
+Structural_data_occupied: 	16589344
+Structural_data_unoccupied: 	7569896
+Key_data_occupied: 	235199264
+Key_data_unoccupied: 	0
+
+
 ------------------- running with 4 threads -------------------------
+Finished loading workload file (mem = 369012)
+Processed 9994144 / 10000000 (99.9414 %)
+Workload Load 7.09145
+[Memory Footprint] - before delta chain consolidation
+Metadata: 	42865184
+Structural_data_occupied: 	11548408
+Structural_data_unoccupied: 	7570160
+Key_data_occupied: 	159906352
+Key_data_unoccupied: 	0
+
+
+[Memory Footprint] - after delta chain consolidation
+Metadata: 	6565216
+Structural_data_occupied: 	2455328
+Structural_data_unoccupied: 	7570160
+Key_data_occupied: 	159906352
+Key_data_unoccupied: 	0
+Depth: 4 , depth with deta records: 4
+Finished running benchmark (mem = 1129736)
 ------------------- running with 8 threads -------------------------
+Finished loading workload file (mem = 366708)
+Processed 9715147 / 10000000 (97.1515 %)
+Workload Load 12.7457
+[Memory Footprint] - before delta chain consolidation
+Metadata: 	41584464
+Structural_data_occupied: 	11202640
+Structural_data_unoccupied: 	7594608
+Key_data_occupied: 	155443616
+Key_data_unoccupied: 	0
+
+
+[Memory Footprint] - after delta chain consolidation
+Metadata: 	6369200
+Structural_data_occupied: 	2381984
+Structural_data_unoccupied: 	7594608
+Key_data_occupied: 	155442464
+Key_data_unoccupied: 	0
+Depth: 4 , depth with deta records: 4
+Finished running benchmark (mem = 1107216)
 ------------------- running with 16 threads -------------------------
-------------------- running with 32 threads -------------------------
-------------------- running with 64 threads -------------------------
+Finished loading workload file (mem = 368860)
+Processed 9403224 / 10000000 (94.0322 %)
+Workload Load 18.6189
+[Memory Footprint] - before delta chain consolidation
+Metadata: 	40185064
+Structural_data_occupied: 	10828584
+Structural_data_unoccupied: 	7619936
+Key_data_occupied: 	150452976
+Key_data_unoccupied: 	0
+
+
+[Memory Footprint] - after delta chain consolidation
+Metadata: 	6166440
+Structural_data_occupied: 	2306000
+Structural_data_unoccupied: 	7619936
+Key_data_occupied: 	150451824
+Key_data_unoccupied: 	0
+Depth: 4 , depth with deta records: 4
+Finished running benchmark (mem = 1083656)
+------------------- running with 1 threads -------------------------
+Finished loading workload file (mem = 366712)
+Processed 10000000 / 10000000 (100 %)
+Workload Load 1.75993
+[Memory Footprint] - before delta chain consolidation
+Metadata: 	63004968
+Structural_data_occupied: 	16589344
+Structural_data_unoccupied: 	7569896
+Key_data_occupied: 	235199264
+Key_data_unoccupied: 	0
+
+
+------------------- running with 4 threads -------------------------
+Finished loading workload file (mem = 364044)
+Processed 9948787 / 10000000 (99.4879 %)
+Workload Load 7.14953
+[Memory Footprint] - before delta chain consolidation
+Metadata: 	65425052
+Structural_data_occupied: 	17189208
+Structural_data_unoccupied: 	7575968
+Key_data_occupied: 	244061040
+Key_data_unoccupied: 	0
+
+
+------------------- running with 8 threads -------------------------
+Finished loading workload file (mem = 366792)
+Processed 9729004 / 10000000 (97.29 %)
+Workload Load 12.7534
+[Memory Footprint] - before delta chain consolidation
+Metadata: 	41733032
+Structural_data_occupied: 	11245128
+Structural_data_unoccupied: 	7590176
+Key_data_occupied: 	155664176
+Key_data_unoccupied: 	0
+
+
+[Memory Footprint] - after delta chain consolidation
+Metadata: 	6404632
+Structural_data_occupied: 	2395280
+Structural_data_unoccupied: 	7590176
+Key_data_occupied: 	155664176
+Key_data_unoccupied: 	0
+Depth: 4 , depth with deta records: 4
+Finished running benchmark (mem = 1109332)
+------------------- running with 16 threads -------------------------
+Finished loading workload file (mem = 366840)
+Processed 9190616 / 10000000 (91.9062 %)
+Workload Load 18.6844
+[Memory Footprint] - before delta chain consolidation
+Metadata: 	39406540
+Structural_data_occupied: 	10617832
+Structural_data_unoccupied: 	7635608
+Key_data_occupied: 	147051248
+Key_data_unoccupied: 	0
+
+
+[Memory Footprint] - after delta chain consolidation
+Metadata: 	6041160
+Structural_data_occupied: 	2258984
+Structural_data_unoccupied: 	7635608
+Key_data_occupied: 	147050096
+Key_data_unoccupied: 	0
+Depth: 4 , depth with deta records: 4
+Finished running benchmark (mem = 1067636)

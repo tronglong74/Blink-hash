@@ -1,11 +1,11 @@
 #define __TBB_VERSION_STRINGS(N) \
-#N": BUILD_HOST		ubuntu-desktop (x86_64)" ENDL \
-#N": BUILD_OS		Ubuntu 22.04.4 LTS" ENDL \
-#N": BUILD_KERNEL	Linux 6.8.0-40-generic #40~22.04.3-Ubuntu SMP PREEMPT_DYNAMIC Tue Jul 30 17:30:19 UTC 2" ENDL \
-#N": BUILD_GCC		g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0" ENDL \
-#N": BUILD_LIBC	2.35" ENDL \
+#N": BUILD_HOST		TungNguyen (x86_64)" ENDL \
+#N": BUILD_OS		Ubuntu 20.04.6 LTS" ENDL \
+#N": BUILD_KERNEL	Linux 5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024" ENDL \
+#N": BUILD_GCC		g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0" ENDL \
+#N": BUILD_LIBC	2.31" ENDL \
 #N": BUILD_LD		" ENDL \
-#N": BUILD_TARGET	intel64 on cc11_libc2.35_kernel6.8.0" ENDL \
-#N": BUILD_COMMAND	/usr/bin/c++ -DTBB_USE_DEBUG -DDO_ITT_NOTIFY -g -O0 -DUSE_PTHREAD -m64 -fPIC -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -I/home/longnguyen/Blink-hash/index/hot/third-party/tbb/./src -I/home/longnguyen/Blink-hash/index/hot/third-party/tbb/./src/rml/include -I/home/longnguyen/Blink-hash/index/hot/third-party/tbb/./include -I." ENDL \
+#N": BUILD_TARGET	intel64 on cc9_libc2.31_kernel5.15.153.1" ENDL \
+#N": BUILD_COMMAND	/usr/bin/c++ -DTBB_USE_DEBUG -DDO_ITT_NOTIFY -g -O0 -DUSE_PTHREAD -m64 -mrtm -fPIC -flifetime-dse=1 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -I/home/longnguyen/Blink-hash/index/hot/third-party/tbb/./src -I/home/longnguyen/Blink-hash/index/hot/third-party/tbb/./src/rml/include -I/home/longnguyen/Blink-hash/index/hot/third-party/tbb/./include -I." ENDL \
 
-#define __TBB_DATETIME "2024年 09月 25日 星期三 03:33:18 UTC"
+#define __TBB_DATETIME "Fri Nov 1 17:43:39 UTC 2024"

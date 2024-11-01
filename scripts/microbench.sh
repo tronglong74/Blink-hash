@@ -10,13 +10,13 @@ mkdir $path_throughput
 mkdir $path_latency
 mkdir $path_profile
 
-index="artolc hot masstree bwtree blink blinkhash"
+index="bwtree blink blinkhash"
 workloads="load update read scan"
-threads="1 4 8 16 32 64"
+threads="1 4 8 16"
 iterations="1 2 3"
 
-init_num=100
-run_num=100
+init_num=10
+run_num=10
 
 
 ## load throughput

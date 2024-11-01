@@ -1,18 +1,324 @@
 ------------------- running with 1 threads -------------------------
+Finished loading workload file (mem = 362784)
+Processed 10000000 / 10000000 (100 %)
+Workload Load 5.01657
+Latency observed (9937) 
+	avg: 	226
+	min: 	49
+	50%: 	201
+	90%: 	353
+	95%: 	435
+	99%: 	630
+	99.9%: 	938
+	99.99%: 	63008
+[Memory Footprint]
+Metadata: 	5938264
+Structural_data_occupied: 	10025200
+Structural_data_unoccupied: 	5704144
+Key_data_occupied: 	160000000
+Key_data_unoccupied: 	91182080
+inode lv 2: 3.44828 %
+inode lv 1: 72.4138 %
+inode lv 0: 77.6646 %
+leaf 36.3012 %
+inode bytes: 24064 btree node bytes: 0 hash node bytes: 271319040
+total memory used in GB: 0.252708
+height of blink-tree hashed: 	3
+Finished running benchmark (mem = 784872)
 ------------------- running with 4 threads -------------------------
+Finished loading workload file (mem = 365752)
+Processed 9966866 / 10000000 (99.6687 %)
+Workload Load 21.52
+Latency observed (9959) 
+	avg: 	216
+	min: 	64
+	50%: 	197
+	90%: 	290
+	95%: 	342
+	99%: 	459
+	99.9%: 	734
+	99.99%: 	64542
+[Memory Footprint]
+Metadata: 	5909616
+Structural_data_occupied: 	9991957
+Structural_data_unoccupied: 	5661979
+Key_data_occupied: 	159469904
+Key_data_unoccupied: 	90498736
+inode lv 2: 3.44828 %
+inode lv 1: 74.1379 %
+inode lv 0: 75.4789 %
+leaf 36.204 %
+inode bytes: 24576 btree node bytes: 0 hash node bytes: 270008320
+total memory used in GB: 0.251488
+height of blink-tree hashed: 	3
+Finished running benchmark (mem = 786980)
 ------------------- running with 8 threads -------------------------
+Finished loading workload file (mem = 363740)
+Processed 9754676 / 10000000 (97.5468 %)
+Workload Load 39.1075
+Latency observed (9929) 
+	avg: 	233
+	min: 	64
+	50%: 	213
+	90%: 	332
+	95%: 	387
+	99%: 	505
+	99.9%: 	759
+	99.99%: 	68126
+[Memory Footprint]
+Metadata: 	5852064
+Structural_data_occupied: 	9779483
+Structural_data_unoccupied: 	5719861
+Key_data_occupied: 	156074928
+Key_data_unoccupied: 	91466832
+inode lv 2: 3.44828 %
+inode lv 1: 63.7931 %
+inode lv 0: 86.7374 %
+leaf 36.9501 %
+inode bytes: 21504 btree node bytes: 0 hash node bytes: 267386880
+total memory used in GB: 0.249043
+height of blink-tree hashed: 	3
+Finished running benchmark (mem = 784300)
 ------------------- running with 16 threads -------------------------
-------------------- running with 32 threads -------------------------
-------------------- running with 64 threads -------------------------
+Finished loading workload file (mem = 366868)
+Processed 8696340 / 10000000 (86.9634 %)
+Workload Load 61.5783
+Latency observed (9032) 
+	avg: 	309
+	min: 	91
+	50%: 	247
+	90%: 	430
+	95%: 	524
+	99%: 	833
+	99.9%: 	4373
+	99.99%: 	82753
+[Memory Footprint]
+Metadata: 	5697128
+Structural_data_occupied: 	8720491
+Structural_data_unoccupied: 	6368157
+Key_data_occupied: 	139141680
+Key_data_unoccupied: 	101847504
+inode lv 2: 3.44828 %
+inode lv 1: 60.3448 %
+inode lv 0: 89.096 %
+leaf 42.2623 %
+inode bytes: 20480 btree node bytes: 0 hash node bytes: 260308992
+total memory used in GB: 0.242451
+height of blink-tree hashed: 	3
+Finished running benchmark (mem = 777716)
 ------------------- running with 1 threads -------------------------
+Finished loading workload file (mem = 366980)
+Processed 10000000 / 10000000 (100 %)
+Workload Load 5.36895
+Latency observed (9937) 
+	avg: 	214
+	min: 	52
+	50%: 	193
+	90%: 	294
+	95%: 	358
+	99%: 	502
+	99.9%: 	914
+	99.99%: 	116710
+[Memory Footprint]
+Metadata: 	5938264
+Structural_data_occupied: 	10025200
+Structural_data_unoccupied: 	5704144
+Key_data_occupied: 	160000000
+Key_data_unoccupied: 	91182080
+inode lv 2: 3.44828 %
+inode lv 1: 72.4138 %
+inode lv 0: 77.6646 %
+leaf 36.3012 %
+inode bytes: 24064 btree node bytes: 0 hash node bytes: 271319040
+total memory used in GB: 0.252708
+height of blink-tree hashed: 	3
+Finished running benchmark (mem = 788272)
 ------------------- running with 4 threads -------------------------
+Finished loading workload file (mem = 363740)
+Processed 9913659 / 10000000 (99.1366 %)
+Workload Load 21.5535
+Latency observed (9921) 
+	avg: 	215
+	min: 	60
+	50%: 	198
+	90%: 	297
+	95%: 	348
+	99%: 	471
+	99.9%: 	958
+	99.99%: 	74190
+[Memory Footprint]
+Metadata: 	5863696
+Structural_data_occupied: 	9938550
+Structural_data_unoccupied: 	5593506
+Key_data_occupied: 	158618592
+Key_data_unoccupied: 	89408544
+inode lv 2: 3.44828 %
+inode lv 1: 72.4138 %
+inode lv 0: 76.6458 %
+leaf 36.0479 %
+inode bytes: 24064 btree node bytes: 0 hash node bytes: 267911168
+total memory used in GB: 0.249534
+height of blink-tree hashed: 	3
+Finished running benchmark (mem = 784700)
 ------------------- running with 8 threads -------------------------
+Finished loading workload file (mem = 366804)
+Processed 9670222 / 10000000 (96.7022 %)
+Workload Load 39.0126
+Latency observed (9835) 
+	avg: 	241
+	min: 	60
+	50%: 	214
+	90%: 	340
+	95%: 	398
+	99%: 	556
+	99.9%: 	910
+	99.99%: 	89109
+[Memory Footprint]
+Metadata: 	5869336
+Structural_data_occupied: 	9695117
+Structural_data_unoccupied: 	5850699
+Key_data_occupied: 	154723664
+Key_data_unoccupied: 	93546160
+inode lv 2: 3.44828 %
+inode lv 1: 67.2414 %
+inode lv 0: 82.5904 %
+leaf 37.6792 %
+inode bytes: 22528 btree node bytes: 0 hash node bytes: 268173312
+total memory used in GB: 0.249777
+height of blink-tree hashed: 	3
+Finished running benchmark (mem = 787368)
 ------------------- running with 16 threads -------------------------
-------------------- running with 32 threads -------------------------
-------------------- running with 64 threads -------------------------
+Finished loading workload file (mem = 362936)
+Processed 8625815 / 10000000 (86.2582 %)
+Workload Load 64.0463
+Latency observed (8961) 
+	avg: 	331
+	min: 	54
+	50%: 	245
+	90%: 	416
+	95%: 	491
+	99%: 	684
+	99.9%: 	7983
+	99.99%: 	213651
+[Memory Footprint]
+Metadata: 	5542256
+Structural_data_occupied: 	8649318
+Structural_data_unoccupied: 	6029578
+Key_data_occupied: 	138013280
+Key_data_unoccupied: 	96423328
+inode lv 2: 3.44828 %
+inode lv 1: 60.3448 %
+inode lv 0: 86.5797 %
+leaf 41.1298 %
+inode bytes: 20480 btree node bytes: 0 hash node bytes: 253231104
+total memory used in GB: 0.235859
+height of blink-tree hashed: 	3
+Finished running benchmark (mem = 767720)
 ------------------- running with 1 threads -------------------------
+Finished loading workload file (mem = 363232)
+Processed 10000000 / 10000000 (100 %)
+Workload Load 5.52774
+Latency observed (9937) 
+	avg: 	199
+	min: 	50
+	50%: 	189
+	90%: 	280
+	95%: 	340
+	99%: 	475
+	99.9%: 	797
+	99.99%: 	56796
+[Memory Footprint]
+Metadata: 	5938264
+Structural_data_occupied: 	10025200
+Structural_data_unoccupied: 	5704144
+Key_data_occupied: 	160000000
+Key_data_unoccupied: 	91182080
+inode lv 2: 3.44828 %
+inode lv 1: 72.4138 %
+inode lv 0: 77.6646 %
+leaf 36.3012 %
+inode bytes: 24064 btree node bytes: 0 hash node bytes: 271319040
+total memory used in GB: 0.252708
+height of blink-tree hashed: 	3
+Finished running benchmark (mem = 785300)
 ------------------- running with 4 threads -------------------------
+Finished loading workload file (mem = 362824)
+Processed 9937279 / 10000000 (99.3728 %)
+Workload Load 21.3724
+Latency observed (9941) 
+	avg: 	211
+	min: 	53
+	50%: 	200
+	90%: 	300
+	95%: 	353
+	99%: 	495
+	99.9%: 	764
+	99.99%: 	9122
+[Memory Footprint]
+Metadata: 	5932496
+Structural_data_occupied: 	9962450
+Structural_data_unoccupied: 	5751246
+Key_data_occupied: 	158996512
+Key_data_unoccupied: 	91942880
+inode lv 2: 3.44828 %
+inode lv 1: 70.6897 %
+inode lv 0: 79.4707 %
+leaf 36.6395 %
+inode bytes: 23552 btree node bytes: 0 hash node bytes: 271056896
+total memory used in GB: 0.252463
+height of blink-tree hashed: 	3
+Finished running benchmark (mem = 784936)
 ------------------- running with 8 threads -------------------------
+Finished loading workload file (mem = 363804)
+Processed 9780136 / 10000000 (97.8014 %)
+Workload Load 39.6246
+Latency observed (9952) 
+	avg: 	224
+	min: 	63
+	50%: 	209
+	90%: 	321
+	95%: 	376
+	99%: 	505
+	99.9%: 	661
+	99.99%: 	11657
+[Memory Footprint]
+Metadata: 	5903848
+Structural_data_occupied: 	9805199
+Structural_data_unoccupied: 	5833089
+Key_data_occupied: 	156482288
+Key_data_unoccupied: 	93243664
+inode lv 2: 3.44828 %
+inode lv 1: 72.4138 %
+inode lv 0: 77.1944 %
+leaf 37.3384 %
+inode bytes: 24064 btree node bytes: 0 hash node bytes: 269746176
+total memory used in GB: 0.251243
+height of blink-tree hashed: 	3
+Finished running benchmark (mem = 784452)
 ------------------- running with 16 threads -------------------------
-------------------- running with 32 threads -------------------------
-------------------- running with 64 threads -------------------------
+Finished loading workload file (mem = 363836)
+Processed 8461029 / 10000000 (84.6103 %)
+Workload Load 63.7466
+Latency observed (8782) 
+	avg: 	292
+	min: 	78
+	50%: 	239
+	90%: 	404
+	95%: 	481
+	99%: 	686
+	99.9%: 	3164
+	99.99%: 	89810
+[Memory Footprint]
+Metadata: 	5559432
+Structural_data_occupied: 	8484596
+Structural_data_unoccupied: 	6239356
+Key_data_occupied: 	135376704
+Key_data_unoccupied: 	99787968
+inode lv 2: 3.44828 %
+inode lv 1: 58.6207 %
+inode lv 0: 89.3678 %
+leaf 42.4332 %
+inode bytes: 19968 btree node bytes: 0 hash node bytes: 254017536
+total memory used in GB: 0.236591
+height of blink-tree hashed: 	3
+Finished running benchmark (mem = 771360)
